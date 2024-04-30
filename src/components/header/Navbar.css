@@ -1,0 +1,44 @@
+.navbar {
+    background-color: #89a0a8;
+  position: fixed;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  z-index: 100;
+}
+#Logo {
+  width: 200px;
+  height: 80px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+#Logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#navList {
+  margin: 0px 15px;
+}
+#navLink {
+  color: #fcbc1a;
+
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+#navBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navBtn button{
+    padding: 10px 25px ;
+    border:none;
+    background-color: #5e145e;
+    color: #fcbc1a;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 4px;
+}
