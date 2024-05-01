@@ -1,6 +1,6 @@
 import React from "react";
 
-function Fashion() {
+function Contact() {
   return (
     <div>
       <p>
@@ -26,4 +26,4 @@ function Fashion() {
   );
 }
 
-export default Fashion;
+export default Contact;

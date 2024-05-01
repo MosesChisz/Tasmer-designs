@@ -1,80 +1,185 @@
-import React from 'react'
+import React from "react";
+import "./Home.css";
+import homebanner from "../../assets/homebanner05.png";
+import homeaboutbanner from "../../assets/aboutbanner02.png";
+import { SlLocationPin } from "react-icons/sl";
+import { SlCalender } from "react-icons/sl";
+import { MdOutlinePhone } from "react-icons/md";
+import { MdOutlineMailOutline } from "react-icons/md";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import "./Home.css";
+import Footer from "../../components/footer/Footer";
 
 function Home() {
-    const handleDragStart = (e) => e.preventDefault();
-    const items = [
-      <div id="reviewCard">
-        <div id="reviewCardInner">
-          <h1>
-            Building
-            <br /> Dreams,
-            <br /> One Brick at a Time
-          </h1>
-          <p>
-            Welcome to our construction company, where we turn your dreams into
-            reality. With precision and passion, we construct spaces that inspire
-            and endure.
-          </p>
-        </div>
-      </div>,
-      <div id="reviewCard01">
-        <div id="reviewCardInner">
-          <h1>
-            Crafting <br />
-            Architectural Marvels
-          </h1>
-          <p>
-            Step into a world of architectural excellence and innovation. From
-            sleek skyscrapers to cozy homes, our team of experts crafts structures
-            that stand the test of time
-          </p>
-        </div>
-      </div>,
-      <div id="reviewCard02">
-        <div id="reviewCardInner">
-          <h1>
-            Transforming Spaces,
-            <br /> Elevating Lives
-          </h1>
-          <p>
-            Discover the transformative power of construction. With every project,
-            we reshape environments and enrich lives. Welcome to a world of
-            endless possibilities
-          </p>
-        </div>
-      </div>,
-    ];
-    const responsive = {
-      0: { items: 1 },
-      1024: { items: 1 },
-    };
+  const handleDragStart = (e) => e.preventDefault();
+  const items = [
+    <div id="partnerCard">
+      <div id="partnerCardBox">
+        <img src={homebanner} alt="" />
+      </div>
+    </div>,
+    <div id="partnerCard">
+      <div id="partnerCardBox">
+        <img src={homeaboutbanner} alt="" />
+      </div>
+    </div>,
+    <div id="partnerCard">
+      <div id="partnerCardBox">
+        <img src={homebanner} alt="" />
+      </div>
+    </div>,
+    <div id="partnerCard">
+      <div id="partnerCardBox">
+        <img src={homeaboutbanner} alt="" />
+      </div>
+    </div>,
+    <div id="partnerCard">
+      <div id="partnerCardBox">
+        <img src={homebanner} alt="" />
+      </div>
+    </div>,
+    <div id="partnerCard">
+      <div id="partnerCardBox">
+        <img src={homeaboutbanner} alt="" />
+      </div>
+    </div>,
+    <div id="partnerCard">
+      <div id="partnerCardBox">
+        <img src={homebanner} alt="" />
+      </div>
+    </div>,
+  ];
+  const responsive = {
+    0: { items: 1 },
+    1024: { items: 3 },
+  };
   return (
     <>
-     <div>
-        <div>
-
-
-
+      <div className="container-fluid" id="theHomePageSection">
+        <div className="container" id="theHomePage">
+          <div id="theHomePageText">
+            <h1>
+              Discover the essence of style. Welcome to Tasmer, where every
+              outfit tells a story
+            </h1>
+            <button>Oder Now</button>
+          </div>
+          <div id="theHomePageImg">
+            <img src={homebanner} alt="" />
+          </div>
         </div>
-        <div>
-        <AliceCarousel
-          mouseTracking
-          items={items}
-          autoPlay
-          disableButtonsControls={true}
-          disableDotsControls={true}
-          infinite={true}
-          autoPlayInterval={5000}
-          responsive={responsive}
-          animationType="fadeout"
-        />
       </div>
-     </div>
+
+      <div className="container" id="homePageWrap">
+        <div class="row" id="homePageWrapBox">
+          <div class="col-lg-3 col-md-4">
+            <div id="homePageWrapContact">
+              <span>
+                {" "}
+                <SlLocationPin id="homePageWrapContactIcon" />
+              </span>
+              <p>
+                123 Jupiter Street
+                <br />
+                Mars Planet
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div id="homePageWrapContact">
+              <span>
+                {" "}
+                <SlCalender id="homePageWrapContactIcon" />
+              </span>
+              <p>
+                Mon~Sat
+                <br />
+                Close Holidays
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div id="homePageWrapContact">
+              <span>
+                {" "}
+                <MdOutlinePhone id="homePageWrapContactIcon" />
+              </span>
+              <p>
+                +123 456 6789
+                <br /> +123 456 6789
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div id="homePageWrapContact">
+              <span>
+                {" "}
+                <MdOutlineMailOutline id="homePageWrapContactIcon" />
+              </span>
+              <p>
+                test@example.com
+                <br /> test@example.com
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" id="homeAboutContainer">
+          <div class="col-lg-6 col-md-4">
+            <div id="homeAboutContainerCard">
+              <h4>Who Are We ?</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum
+              </p>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum
+              </p>
+              <button>Read more</button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-4">
+            <div id="homeAboutContainerCard">
+              <img src={homeaboutbanner} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="theParterPageSection">
+        <div className="container">
+          <h2>Our Latest Designs</h2>
+          <AliceCarousel
+            mouseTracking
+            items={items}
+            autoPlay
+            disableButtonsControls={true}
+            disableDotsControls={false}
+            infinite={true}
+            autoPlayInterval={3000}
+            responsive={responsive}
+          />
+        </div>
+      </div>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;

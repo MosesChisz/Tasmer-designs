@@ -1,8 +1,10 @@
 import React from "react";
 import Logo from "../../assets/tamslogo.png";
+import { useNavigate } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
+  const navigate = useNavigate();
   return (
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
@@ -22,7 +24,9 @@ function Navbar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item" id="navList">
+            <li class="nav-item" id="navList"   onClick={() => {
+                navigate("/");
+              }}>
               <a
                 class="nav-link active"
                 aria-current="page"
@@ -32,7 +36,9 @@ function Navbar() {
                 Home
               </a>
             </li>
-            <li class="nav-item" id="navList">
+            <li class="nav-item" id="navList"   onClick={() => {
+                navigate("/about");
+              }}>
               <a
                 class="nav-link active"
                 aria-current="page"
@@ -42,7 +48,9 @@ function Navbar() {
                 About
               </a>
             </li>
-            <li class="nav-item" id="navList">
+            <li class="nav-item" id="navList"   onClick={() => {
+                navigate("/fashion");
+              }}>
               <a
                 class="nav-link active"
                 aria-current="page"
@@ -52,7 +60,9 @@ function Navbar() {
                 Fashion
               </a>
             </li>
-            <li class="nav-item" id="navList">
+            <li class="nav-item" id="navList"   onClick={() => {
+                navigate("/contact");
+              }}>
               <a
                 class="nav-link active"
                 aria-current="page"
