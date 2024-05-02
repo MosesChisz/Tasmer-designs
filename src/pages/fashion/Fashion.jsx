@@ -67,7 +67,7 @@ function Fashion() {
               className={activeButton === 6 ? "active" : ""}
               onClick={() => handleButtonClick(6)}
             >
-              Wedding
+              Metric Dance
             </button>
           </div>
 
@@ -76,7 +76,7 @@ function Fashion() {
               className={activeButton === 7 ? "active" : ""}
               onClick={() => handleButtonClick(7)}
             >
-              Wedding
+              Specials
             </button>
           </div>
         </div>
