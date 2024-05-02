@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import homebanner from "../../assets/homebanner05.png";
+import { useNavigate } from "react-router-dom";
+import { GoArrowRight } from "react-icons/go";
 import "./Fashion.css";
+import Footer from "../../components/footer/Footer";
 
 function Fashion() {
+  const navigate = useNavigate();
   const [activeButton, setActiveButton] = useState(null);
   const handleButtonClick = (buttonId) => {
     setActiveButton(buttonId);
@@ -77,20 +81,123 @@ function Fashion() {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container" id="fashionCardBox">
         <div class="row">
           <div class="col-lg-4 col-md-4">
             <div id="fashionCard">
               <img src={homebanner} alt="" />
-              <p>Ladies African Attire</p>
-              <div>
-                <button>Order Now</button>
-                <button>View Details</button>
+              <h6>Ladies African Attire</h6>
+              <p>R140.50</p>
+              <div id="fashionCardBtn">
+                <button id="fashionCardBtnA" >Order Now</button>
+                <button id="fashionCardBtnB"  onClick={() => {
+                navigate("/fashiondetails");
+              }}>View Details <GoArrowRight /></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="fashionCard">
+              <img src={homebanner} alt="" />
+              <h6>Ladies African Attire</h6>
+              <p>R140.50</p>
+              <div id="fashionCardBtn">
+                <button id="fashionCardBtnA">Order Now</button>
+                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="fashionCard">
+              <img src={homebanner} alt="" />
+              <h6>Ladies African Attire</h6>
+              <p>R140.50</p>
+              <div id="fashionCardBtn">
+                <button id="fashionCardBtnA">Order Now</button>
+                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="fashionCard">
+              <img src={homebanner} alt="" />
+              <h6>Ladies African Attire</h6>
+              <p>R140.50</p>
+              <div id="fashionCardBtn">
+                <button id="fashionCardBtnA">Order Now</button>
+                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="fashionCard">
+              <img src={homebanner} alt="" />
+              <h6>Ladies African Attire</h6>
+              <p>R140.50</p>
+              <div id="fashionCardBtn">
+                <button id="fashionCardBtnA">Order Now</button>
+                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="fashionCard">
+              <img src={homebanner} alt="" />
+              <h6>Ladies African Attire</h6>
+              <p>R140.50</p>
+              <div id="fashionCardBtn">
+                <button id="fashionCardBtnA">Order Now</button>
+                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="fashionCard">
+              <img src={homebanner} alt="" />
+              <h6>Ladies African Attire</h6>
+              <p>R140.50</p>
+              <div id="fashionCardBtn">
+                <button id="fashionCardBtnA">Order Now</button>
+                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="fashionCard">
+              <img src={homebanner} alt="" />
+              <h6>Ladies African Attire</h6>
+              <p>R140.50</p>
+              <div id="fashionCardBtn">
+                <button id="fashionCardBtnA">Order Now</button>
+                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="fashionCard">
+              <img src={homebanner} alt="" />
+              <h6>Ladies African Attire</h6>
+              <p>R140.50</p>
+              <div id="fashionCardBtn">
+                <button id="fashionCardBtnA">Order Now</button>
+                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="fashionCard">
+              <img src={homebanner} alt="" />
+              <h6>Ladies African Attire</h6>
+              <p>R140.50</p>
+              <div id="fashionCardBtn">
+                <button id="fashionCardBtnA">Order Now</button>
+                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }

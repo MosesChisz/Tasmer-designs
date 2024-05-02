@@ -9,43 +9,67 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Footer from "../../components/footer/Footer";
+import { GoArrowRight } from "react-icons/go";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
   const handleDragStart = (e) => e.preventDefault();
+  const navigate = useNavigate();
   const items = [
     <div id="partnerCard">
       <div id="partnerCardBox">
         <img src={homebanner} alt="" />
+        <p class="viewMoreText"  onClick={() => {
+                navigate("/fashion");
+              }}>View more <GoArrowRight /></p>
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
         <img src={homeaboutbanner} alt="" />
+        <p class="viewMoreText" onClick={() => {
+                navigate("/fashion");
+              }}>View more <GoArrowRight /></p>
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
         <img src={homebanner} alt="" />
+        <p class="viewMoreText" onClick={() => {
+                navigate("/fashion");
+              }}>View more <GoArrowRight /></p>
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
         <img src={homeaboutbanner} alt="" />
+        <p class="viewMoreText" onClick={() => {
+                navigate("/fashion");
+              }}>View more <GoArrowRight /></p>
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
         <img src={homebanner} alt="" />
+        <p class="viewMoreText" onClick={() => {
+                navigate("/fashion");
+              }}>View more <GoArrowRight /></p>
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
         <img src={homeaboutbanner} alt="" />
+        <p class="viewMoreText" onClick={() => {
+                navigate("/fashion");
+              }}>View more <GoArrowRight /></p>
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
         <img src={homebanner} alt="" />
+        <p class="viewMoreText" onClick={() => {
+                navigate("/fashion");
+              }}>View more <GoArrowRight /></p>
       </div>
     </div>,
   ];

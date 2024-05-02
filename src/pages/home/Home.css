@@ -112,7 +112,7 @@
   font-family: "Montserrat", sans-serif;
   border-radius: 4px;
 }
-#homeAboutContainerCard img{
+#homeAboutContainerCard img {
   width: 100%;
   height: inherit;
   object-fit: contain;
@@ -158,11 +158,25 @@
   border-radius: 4px;
   width: 100%;
   height: 100%;
-  border: 1px solid #faebd752;
+  background-color: #ffffff;
   cursor: pointer;
 }
-#partnerCardBox:hover {
+
+.viewMoreText {
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #5e145e;
+  padding: 3px 10px;
+  display: none;
+}
+#partnerCardBox:hover .viewMoreText {
   background-color: #d4ebf4;
+  color: #5e145e;
+  border-radius: 4px;
+  display: block;
 }
 #partnerCardBox i {
   color: grey;

@@ -10,6 +10,7 @@ import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Fashion from "./pages/fashion/Fashion";
 import Contact from "./pages/contact/Contact";
+import Fashiondetails from "./pages/fashion/Fashiondetails";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route index element={<Home/>}></Route>
         <Route path="/about" element={<About/>}></Route>
         <Route path="/fashion" element={<Fashion/>}></Route>
+        <Route path="/fashiondetails" element={<Fashiondetails/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
        
       </Route>
