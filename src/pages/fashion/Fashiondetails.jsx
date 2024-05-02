@@ -29,7 +29,7 @@ function Fashiondetails() {
                 containing Lorem Ipsum passages, and more recently with desktop
                 publishing software like Aldus 
               </p>
-              <button>Oder Now</button>
+              <button>Order Now</button>
             </div>
           </div>
         </div>

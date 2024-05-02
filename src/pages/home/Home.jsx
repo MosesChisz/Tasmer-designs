@@ -86,7 +86,7 @@ function Home() {
               Discover the essence of style. Welcome to Tasmer, where every
               outfit tells a story
             </h1>
-            <button>Oder Now</button>
+            <button>Order Now</button>
           </div>
           <div id="theHomePageImg">
             <img src={homebanner} alt="" />
@@ -188,7 +188,7 @@ function Home() {
       </div>
       <div id="theParterPageSection">
         <div className="container">
-          <h2>Our Latest Designs</h2>
+          <h2>Our Latest Fashion</h2>
           <AliceCarousel
             mouseTracking
             items={items}
