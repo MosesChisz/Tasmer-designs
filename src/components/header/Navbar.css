@@ -33,7 +33,7 @@
     align-items: center;
     justify-content: center;
 }
-#navBtn button{
+#navBtn a{
     padding: 12px 25px ;
     border:none;
     background-image: linear-gradient(to right,#5e145e,#a12ea1, #5e145e );

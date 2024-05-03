@@ -79,7 +79,29 @@ function About() {
             </div>
             <div class="col-lg-4 col-md-4">
               <div id="ourServiceCard">
-                <h6>Male Dressing</h6>
+                <h6>Female Dressing</h6>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                </p>
+                <button>Read More</button>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div id="ourServiceCard">
+                <h6>Kids Dressing</h6>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                </p>
+                <button>Read More</button>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div id="ourServiceCard">
+                <h6>Matric Dressing</h6>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -101,29 +123,7 @@ function About() {
             </div>
             <div class="col-lg-4 col-md-4">
               <div id="ourServiceCard">
-                <h6>Male Dressing</h6>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                </p>
-                <button>Read More</button>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-              <div id="ourServiceCard">
-                <h6>Male Dressing</h6>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                </p>
-                <button>Read More</button>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-              <div id="ourServiceCard">
-                <h6>Male Dressing</h6>
+                <h6>Wedding Dressing</h6>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's

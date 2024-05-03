@@ -61,6 +61,18 @@ function Navbar() {
               </a>
             </li>
             <li class="nav-item" id="navList"   onClick={() => {
+                navigate("/reupholstery");
+              }}>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                id="navLink"
+              >
+                Reupholstery
+              </a>
+            </li>
+            <li class="nav-item" id="navList"   onClick={() => {
                 navigate("/contact");
               }}>
               <a
@@ -74,7 +86,7 @@ function Navbar() {
             </li>
           </ul>
           <div id="navBtn">
-            <button>Order Now</button>
+            <a href="https://wa.me/+27659872956">Order Now</a>
           </div>
         </div>
       </div>

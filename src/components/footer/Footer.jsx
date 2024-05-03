@@ -14,11 +14,11 @@ function Footer() {
               Visit Us<span></span>
             </h4>
             <p>
-              123 Jupiter Street
+            1 Plantation  
               <br />
-              Mars Planet
+              Road Eastleigh
               <br />
-              Dummy Place
+              Edenvale
             </p>
           </div>
         </div>

@@ -194,6 +194,17 @@
     object-fit: contain;
 }
 
+#fashionCard33 a{
+  padding: 12px 25px ;
+    border:none;
+    background-image: linear-gradient(to right,#5e145e,#a12ea1, #5e145e );
+    color: #fcbc1a;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 4px;
+}
+
+ 
 @media screen and (max-width: 300px) {
   #ourWorkBtns {
     display: flex;

@@ -12,7 +12,7 @@ function Fashiondetails() {
             </div>
           </div>
           <div class="col-lg-6 col-md-4">
-            <div>
+            <div id="fashionCard33">
               <h6>Women Dress, African Attire</h6>
 
               <p>R140.60</p>
@@ -29,7 +29,7 @@ function Fashiondetails() {
                 containing Lorem Ipsum passages, and more recently with desktop
                 publishing software like Aldus 
               </p>
-              <button>Order Now</button>
+              <a href="https://wa.me/+27659872956">Order Now</a>
             </div>
           </div>
         </div>

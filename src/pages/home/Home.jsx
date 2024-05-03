@@ -86,7 +86,11 @@ function Home() {
               Discover the essence of style. Welcome to Tasmer, where every
               outfit tells a story
             </h1>
-            <button>Order Now</button>
+            <button
+                onClick={() => {
+                  navigate("/fashion");
+                }}
+              >Order Now</button>
           </div>
           <div id="theHomePageImg">
             <img src={homebanner} alt="" />
@@ -103,9 +107,9 @@ function Home() {
                 <SlLocationPin id="homePageWrapContactIcon" />
               </span>
               <p>
-                123 Jupiter Street
+                1 Plantation Road
                 <br />
-                Mars Planet
+                Eastleigh Edenvale
               </p>
             </div>
           </div>
@@ -129,8 +133,8 @@ function Home() {
                 <MdOutlinePhone id="homePageWrapContactIcon" />
               </span>
               <p>
-                +123 456 6789
-                <br /> +123 456 6789
+                +27 65 987 2956
+                <br /> +27 65 987 2956
               </p>
             </div>
           </div>
@@ -153,30 +157,19 @@ function Home() {
             <div id="homeAboutContainerCard">
               <h4>Who Are We ?</h4>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum
+                Tasmer fashions and reupholsters was launched 6 years ago by 
+                experts who have more than 10 years in the fashion and upholstery industry.
               </p>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum
+                We custom or tailor make on all type of clothes for any occasion 
+                ( men, ladies and kids) Traditional attires, matric dance dresses, 
+                bridal wear, uniforms, formal and casual wear, we do it all.
               </p>
-              <button>Read more</button>
+              <button
+                onClick={() => {
+                  navigate("/about");
+                }}
+              >Read more</button>
             </div>
           </div>
           <div class="col-lg-6 col-md-4">
