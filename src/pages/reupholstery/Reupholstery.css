@@ -1,0 +1,14 @@
+#theReuphosteyPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#theReuphosteyPageBox{
+    max-width: 800px;
+    background-color: #faebd761;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

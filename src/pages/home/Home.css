@@ -1,10 +1,121 @@
-#theHomePageSection {
+/* #theHomePageSection {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   height: 100vh;
-  background-image: linear-gradient(to right, #bacbd1, #ffffff73);
+
+} */
+#reviewCard {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      to right,
+      rgb(1, 1, 1),
+      rgb(18, 18, 18),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url( "../../assets/aboutbanner02.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
 }
+#reviewCard01 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      to right,
+      rgb(1, 1, 1),
+      rgb(18, 18, 18),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../../assets/backgroundbanner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+}
+#reviewCard02 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      to right,
+      rgb(1, 1, 1),
+      rgb(18, 18, 18),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url( "../../assets/backgroundbanner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+}
+#reviewCard03 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      to right,
+      rgb(1, 1, 1),
+      rgb(18, 18, 18),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../../assets/backgroundbanner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+}
+#reviewCardInner {
+  max-width: 1000px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+}
+#reviewCardInner h1 {
+  background: -webkit-linear-gradient(0deg,#a12ea1, #f1975b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: start;
+  font-family: "Montserrat", sans-serif;
+}
+#reviewCardInner p {
+  color: antiquewhite;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 18px;
+}
+#reviewCardInner button {
+  margin-top: 20px;
+  padding: 12px 40px;
+  border: none;
+  background-color: #363658;
+  color: #d29968;
+  border-radius: 0px;
+  border: 2px solid antiquewhite;
+}
+
+
+
+
+/* 
+
 #theHomePage {
   display: flex;
   align-items: center;
@@ -49,7 +160,7 @@
   align-items: start;
   justify-content: center;
   width: 50%;
-}
+} */
 #theHomePageImg img {
   width: 100%;
   height: 400px;
@@ -115,81 +226,13 @@
 #homeAboutContainerCard img {
   width: 100%;
   height: inherit;
-  object-fit: contain;
-}
-
-#theParterPageSection {
-  padding: 15px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  background-image: linear-gradient(to right, #bacbd1, #ffffff73);
-}
-#theParterPageSection h2 {
-  text-align: center;
-  color: #a12ea1;
-  font-weight: 700;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-}
-#partnerCard {
-  width: 100%;
-  height: 350px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: start;
-
-  border-radius: 20px;
-}
-#partnerCard img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  border-radius: 20px;
-  filter: brightness(80%);
-}
-#partnerCardBox {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  padding: 5px;
+  margin-top: 10px;
   border-radius: 4px;
-  width: 100%;
-  height: 100%;
-  background-color: #ffffff;
-  cursor: pointer;
+  object-fit: contain;
+  background-color: #bacbd1;
 }
 
-.viewMoreText {
-  position: absolute;
-  bottom: 50%;
-  right: 50%;
-  transform: translate(50%, 50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #5e145e;
-  padding: 3px 10px;
-  display: none;
-}
-#partnerCardBox:hover .viewMoreText {
-  background-color: #d4ebf4;
-  color: #5e145e;
-  border-radius: 4px;
-  display: block;
-}
-#partnerCardBox i {
-  color: grey;
-}
-#partnerCardBox p {
-  color: grey;
-  text-align: start;
-  line-height: 1.8rem;
-}
-#partnerCardBox small {
-  color: #2079e0;
-  font-family: "Montserrat", sans-serif;
-}
+
 
 @media (max-width: 750px) {
   #theHomePageImg {

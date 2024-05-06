@@ -24,9 +24,13 @@ function Navbar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item" id="navList"   onClick={() => {
+            <li
+              class="nav-item"
+              id="navList"
+              onClick={() => {
                 navigate("/");
-              }}>
+              }}
+            >
               <a
                 class="nav-link active"
                 aria-current="page"
@@ -36,9 +40,13 @@ function Navbar() {
                 Home
               </a>
             </li>
-            <li class="nav-item" id="navList"   onClick={() => {
+            <li
+              class="nav-item"
+              id="navList"
+              onClick={() => {
                 navigate("/about");
-              }}>
+              }}
+            >
               <a
                 class="nav-link active"
                 aria-current="page"
@@ -48,9 +56,13 @@ function Navbar() {
                 About
               </a>
             </li>
-            <li class="nav-item" id="navList"   onClick={() => {
+            <li
+              class="nav-item"
+              id="navList"
+              onClick={() => {
                 navigate("/fashion");
-              }}>
+              }}
+            >
               <a
                 class="nav-link active"
                 aria-current="page"
@@ -60,9 +72,13 @@ function Navbar() {
                 Fashion
               </a>
             </li>
-            <li class="nav-item" id="navList"   onClick={() => {
+            <li
+              class="nav-item"
+              id="navList"
+              onClick={() => {
                 navigate("/reupholstery");
-              }}>
+              }}
+            >
               <a
                 class="nav-link active"
                 aria-current="page"
@@ -72,9 +88,13 @@ function Navbar() {
                 Reupholstery
               </a>
             </li>
-            <li class="nav-item" id="navList"   onClick={() => {
+            <li
+              class="nav-item"
+              id="navList"
+              onClick={() => {
                 navigate("/contact");
-              }}>
+              }}
+            >
               <a
                 class="nav-link active"
                 aria-current="page"
@@ -86,7 +106,9 @@ function Navbar() {
             </li>
           </ul>
           <div id="navBtn">
-            <a href="https://wa.me/+27659872956">Order Now</a>
+            <a href="https://wa.me/+27659872956" target="_blank">
+              Order Now
+            </a>
           </div>
         </div>
       </div>

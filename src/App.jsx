@@ -11,6 +11,7 @@ import About from "./pages/about/About";
 import Fashion from "./pages/fashion/Fashion";
 import Contact from "./pages/contact/Contact";
 import Fashiondetails from "./pages/fashion/Fashiondetails";
+import Reupholstery from "./pages/reupholstery/Reupholstery";
 
 function App() {
 
@@ -20,9 +21,10 @@ function App() {
         <Route index element={<Home/>}></Route>
         <Route path="/about" element={<About/>}></Route>
         <Route path="/fashion" element={<Fashion/>}></Route>
+        <Route path="/reupholstery" element={<Reupholstery/>}></Route>
         <Route path="/fashiondetails" element={<Fashiondetails/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
-       
+        Reupholstery
       </Route>
     )
   );

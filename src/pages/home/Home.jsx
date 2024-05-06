@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import homebanner from "../../assets/homebanner05.png";
+
 import homeaboutbanner from "../../assets/aboutbanner02.png";
 import { SlLocationPin } from "react-icons/sl";
 import { SlCalender } from "react-icons/sl";
@@ -9,93 +9,66 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Footer from "../../components/footer/Footer";
-import { GoArrowRight } from "react-icons/go";
+
 import { useNavigate } from "react-router-dom";
+import Latestfashion from "../../components/latestfashion/Latestfashion";
 
 function Home() {
-  const handleDragStart = (e) => e.preventDefault();
   const navigate = useNavigate();
+  const handleDragStart = (e) => e.preventDefault();
   const items = [
-    <div id="partnerCard">
-      <div id="partnerCardBox">
-        <img src={homebanner} alt="" />
-        <p class="viewMoreText"  onClick={() => {
-                navigate("/fashion");
-              }}>View more <GoArrowRight /></p>
+    <div id="reviewCard">
+      <div id="reviewCardInner">
+        <h1>
+          Discover the Latest <br />
+          Trends
+        </h1>
+        <p>
+          Step into the world of fashion and explore our curated collection of
+          the season's hottest trends. From chic essentials to statement pieces,
+          find your style inspiration here.
+        </p>
       </div>
     </div>,
-    <div id="partnerCard">
-      <div id="partnerCardBox">
-        <img src={homeaboutbanner} alt="" />
-        <p class="viewMoreText" onClick={() => {
-                navigate("/fashion");
-              }}>View more <GoArrowRight /></p>
+    <div id="reviewCard01">
+      <div id="reviewCardInner">
+        <h1>Elevate Your Wardrobe</h1>
+        <p>
+          Upgrade your wardrobe with our timeless classics and contemporary
+          must-haves. Shop quality pieces that effortlessly blend style and
+          sophistication for every occasion
+        </p>
       </div>
     </div>,
-    <div id="partnerCard">
-      <div id="partnerCardBox">
-        <img src={homebanner} alt="" />
-        <p class="viewMoreText" onClick={() => {
-                navigate("/fashion");
-              }}>View more <GoArrowRight /></p>
-      </div>
-    </div>,
-    <div id="partnerCard">
-      <div id="partnerCardBox">
-        <img src={homeaboutbanner} alt="" />
-        <p class="viewMoreText" onClick={() => {
-                navigate("/fashion");
-              }}>View more <GoArrowRight /></p>
-      </div>
-    </div>,
-    <div id="partnerCard">
-      <div id="partnerCardBox">
-        <img src={homebanner} alt="" />
-        <p class="viewMoreText" onClick={() => {
-                navigate("/fashion");
-              }}>View more <GoArrowRight /></p>
-      </div>
-    </div>,
-    <div id="partnerCard">
-      <div id="partnerCardBox">
-        <img src={homeaboutbanner} alt="" />
-        <p class="viewMoreText" onClick={() => {
-                navigate("/fashion");
-              }}>View more <GoArrowRight /></p>
-      </div>
-    </div>,
-    <div id="partnerCard">
-      <div id="partnerCardBox">
-        <img src={homebanner} alt="" />
-        <p class="viewMoreText" onClick={() => {
-                navigate("/fashion");
-              }}>View more <GoArrowRight /></p>
+    <div id="reviewCard02">
+      <div id="reviewCardInner">
+        <h1>Express Your Unique Style</h1>
+        <p>
+          Unleash your individuality and express yourself through fashion.
+          Whether your vibe is edgy, bohemian, or minimalist, discover pieces
+          that reflect your personality and make a statement
+        </p>
       </div>
     </div>,
   ];
   const responsive = {
     0: { items: 1 },
-    1024: { items: 3 },
+    1024: { items: 1 },
   };
   return (
     <>
-      <div className="container-fluid" id="theHomePageSection">
-        <div className="container" id="theHomePage">
-          <div id="theHomePageText">
-            <h1>
-              Discover the essence of style. Welcome to Tasmer, where every
-              outfit tells a story
-            </h1>
-            <button
-                onClick={() => {
-                  navigate("/fashion");
-                }}
-              >Order Now</button>
-          </div>
-          <div id="theHomePageImg">
-            <img src={homebanner} alt="" />
-          </div>
-        </div>
+      <div>
+        <AliceCarousel
+          mouseTracking
+          items={items}
+          autoPlay
+          disableButtonsControls={true}
+          disableDotsControls={true}
+          infinite={true}
+          autoPlayInterval={5000}
+          responsive={responsive}
+          animationType="fadeout"
+        />
       </div>
 
       <div className="container" id="homePageWrap">
@@ -157,19 +130,23 @@ function Home() {
             <div id="homeAboutContainerCard">
               <h4>Who Are We ?</h4>
               <p>
-                Tasmer fashions and reupholsters was launched 6 years ago by 
-                experts who have more than 10 years in the fashion and upholstery industry.
+                Tasmer fashions and reupholsters was launched 6 years ago by
+                experts who have more than 10 years in the fashion and
+                upholstery industry.
               </p>
               <p>
-                We custom or tailor make on all type of clothes for any occasion 
-                ( men, ladies and kids) Traditional attires, matric dance dresses, 
-                bridal wear, uniforms, formal and casual wear, we do it all.
+                We custom or tailor make on all type of clothes for any occasion
+                ( men, ladies and kids) Traditional attires, matric dance
+                dresses, bridal wear, uniforms, formal and casual wear, we do it
+                all.
               </p>
               <button
                 onClick={() => {
                   navigate("/about");
                 }}
-              >Read more</button>
+              >
+                Read more
+              </button>
             </div>
           </div>
           <div class="col-lg-6 col-md-4">
@@ -179,21 +156,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div id="theParterPageSection">
-        <div className="container">
-          <h2>Our Latest Fashion</h2>
-          <AliceCarousel
-            mouseTracking
-            items={items}
-            autoPlay
-            disableButtonsControls={true}
-            disableDotsControls={false}
-            infinite={true}
-            autoPlayInterval={3000}
-            responsive={responsive}
-          />
-        </div>
-      </div>
+      <Latestfashion />
       <Footer />
     </>
   );
