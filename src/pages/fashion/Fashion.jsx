@@ -93,9 +93,12 @@ function Fashion() {
                   <p>R{product.price.toFixed(2)}</p>
                   <div id="fashionCardBtn">
                     <button id="fashionCardBtnA">Order Now</button>
-                    <button id="fashionCardBtnB"  onClick={() => {
-                navigate("/fashiondetails");
-              }}>
+                    <button
+                      id="fashionCardBtnB"
+                      onClick={() => {
+                        navigate(`/fashiondetails/${product.id}`);
+                      }}
+                    >
                       View Details <GoArrowRight />
                     </button>
                   </div>
@@ -104,111 +107,6 @@ function Fashion() {
             </div>
           ))}
 
-          {/*       
-          <div class="col-lg-4 col-md-4">
-            <div id="fashionCard">
-              <img src={homebanner} alt="" />
-              <h6>Ladies African Attire</h6>
-              <p>R140.50</p>
-              <div id="fashionCardBtn">
-                <button id="fashionCardBtnA">Order Now</button>
-                <button id="fashionCardBtnB">
-                  View Details <GoArrowRight />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div id="fashionCard">
-              <img src={homebanner} alt="" />
-              <h6>Ladies African Attire</h6>
-              <p>R140.50</p>
-              <div id="fashionCardBtn">
-                <button id="fashionCardBtnA">Order Now</button>
-                <button id="fashionCardBtnB">
-                  View Details <GoArrowRight />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div id="fashionCard">
-              <img src={homebanner} alt="" />
-              <h6>Ladies African Attire</h6>
-              <p>R140.50</p>
-              <div id="fashionCardBtn">
-                <button id="fashionCardBtnA">Order Now</button>
-                <button id="fashionCardBtnB">
-                  View Details <GoArrowRight />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div id="fashionCard">
-              <img src={homebanner} alt="" />
-              <h6>Ladies African Attire</h6>
-              <p>R140.50</p>
-              <div id="fashionCardBtn">
-                <button id="fashionCardBtnA">Order Now</button>
-                <button id="fashionCardBtnB">
-                  View Details <GoArrowRight />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div id="fashionCard">
-              <img src={homebanner} alt="" />
-              <h6>Ladies African Attire</h6>
-              <p>R140.50</p>
-              <div id="fashionCardBtn">
-                <button id="fashionCardBtnA">Order Now</button>
-                <button id="fashionCardBtnB">
-                  View Details <GoArrowRight />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div id="fashionCard">
-              <img src={homebanner} alt="" />
-              <h6>Ladies African Attire</h6>
-              <p>R140.50</p>
-              <div id="fashionCardBtn">
-                <button id="fashionCardBtnA">Order Now</button>
-                <button id="fashionCardBtnB">
-                  View Details <GoArrowRight />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div id="fashionCard">
-              <img src={homebanner} alt="" />
-              <h6>Ladies African Attire</h6>
-              <p>R140.50</p>
-              <div id="fashionCardBtn">
-                <button id="fashionCardBtnA">Order Now</button>
-                <button id="fashionCardBtnB">
-                  View Details <GoArrowRight />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div id="fashionCard">
-              <img src={homebanner} alt="" />
-              <h6>Ladies African Attire</h6>
-              <p>R140.50</p>
-              <div id="fashionCardBtn">
-                <button id="fashionCardBtnA">Order Now</button>
-                <button id="fashionCardBtnB">
-                  View Details <GoArrowRight />
-                </button>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
       <Footer />
