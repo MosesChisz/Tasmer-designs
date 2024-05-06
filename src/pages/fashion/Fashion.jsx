@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { GoArrowRight } from "react-icons/go";
 import "./Fashion.css";
 import Footer from "../../components/footer/Footer";
+import products from "../../components/common/Image";
 
 function Fashion() {
   const navigate = useNavigate();
@@ -83,16 +84,37 @@ function Fashion() {
       </div>
       <div className="container" id="fashionCardBox">
         <div class="row">
-          <div class="col-lg-4 col-md-4">
-            <div id="fashionCard">
-              <img src={homebanner} alt="" />
-              <h6>Ladies African Attire</h6>
-              <p>R140.50</p>
-              <div id="fashionCardBtn">
-                <button id="fashionCardBtnA" >Order Now</button>
-                <button id="fashionCardBtnB"  onClick={() => {
+          {products.map((product) => (
+            <div class="col-lg-4 col-md-4">
+              <div id="fashionCard">
+                <div key={product.id} className="fashion-card">
+                  <img src={product.image} alt={product.description} />
+                  <h6>{product.title}</h6>
+                  <p>R{product.price.toFixed(2)}</p>
+                  <div id="fashionCardBtn">
+                    <button id="fashionCardBtnA">Order Now</button>
+                    <button id="fashionCardBtnB"  onClick={() => {
                 navigate("/fashiondetails");
-              }}>View Details <GoArrowRight /></button>
+              }}>
+                      View Details <GoArrowRight />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+
+          {/*       
+          <div class="col-lg-4 col-md-4">
+            <div id="fashionCard">
+              <img src={homebanner} alt="" />
+              <h6>Ladies African Attire</h6>
+              <p>R140.50</p>
+              <div id="fashionCardBtn">
+                <button id="fashionCardBtnA">Order Now</button>
+                <button id="fashionCardBtnB">
+                  View Details <GoArrowRight />
+                </button>
               </div>
             </div>
           </div>
@@ -103,7 +125,9 @@ function Fashion() {
               <p>R140.50</p>
               <div id="fashionCardBtn">
                 <button id="fashionCardBtnA">Order Now</button>
-                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
+                <button id="fashionCardBtnB">
+                  View Details <GoArrowRight />
+                </button>
               </div>
             </div>
           </div>
@@ -114,7 +138,9 @@ function Fashion() {
               <p>R140.50</p>
               <div id="fashionCardBtn">
                 <button id="fashionCardBtnA">Order Now</button>
-                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
+                <button id="fashionCardBtnB">
+                  View Details <GoArrowRight />
+                </button>
               </div>
             </div>
           </div>
@@ -125,7 +151,9 @@ function Fashion() {
               <p>R140.50</p>
               <div id="fashionCardBtn">
                 <button id="fashionCardBtnA">Order Now</button>
-                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
+                <button id="fashionCardBtnB">
+                  View Details <GoArrowRight />
+                </button>
               </div>
             </div>
           </div>
@@ -136,7 +164,9 @@ function Fashion() {
               <p>R140.50</p>
               <div id="fashionCardBtn">
                 <button id="fashionCardBtnA">Order Now</button>
-                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
+                <button id="fashionCardBtnB">
+                  View Details <GoArrowRight />
+                </button>
               </div>
             </div>
           </div>
@@ -147,7 +177,9 @@ function Fashion() {
               <p>R140.50</p>
               <div id="fashionCardBtn">
                 <button id="fashionCardBtnA">Order Now</button>
-                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
+                <button id="fashionCardBtnB">
+                  View Details <GoArrowRight />
+                </button>
               </div>
             </div>
           </div>
@@ -158,7 +190,9 @@ function Fashion() {
               <p>R140.50</p>
               <div id="fashionCardBtn">
                 <button id="fashionCardBtnA">Order Now</button>
-                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
+                <button id="fashionCardBtnB">
+                  View Details <GoArrowRight />
+                </button>
               </div>
             </div>
           </div>
@@ -169,35 +203,15 @@ function Fashion() {
               <p>R140.50</p>
               <div id="fashionCardBtn">
                 <button id="fashionCardBtnA">Order Now</button>
-                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
+                <button id="fashionCardBtnB">
+                  View Details <GoArrowRight />
+                </button>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div id="fashionCard">
-              <img src={homebanner} alt="" />
-              <h6>Ladies African Attire</h6>
-              <p>R140.50</p>
-              <div id="fashionCardBtn">
-                <button id="fashionCardBtnA">Order Now</button>
-                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div id="fashionCard">
-              <img src={homebanner} alt="" />
-              <h6>Ladies African Attire</h6>
-              <p>R140.50</p>
-              <div id="fashionCardBtn">
-                <button id="fashionCardBtnA">Order Now</button>
-                <button id="fashionCardBtnB">View Details <GoArrowRight /></button>
-              </div>
-            </div>
-          </div>
+          </div> */}
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
