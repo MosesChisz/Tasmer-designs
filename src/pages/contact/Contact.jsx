@@ -3,8 +3,96 @@ import "./Contact.css";
 import { GrLocation } from "react-icons/gr";
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { MdOutlineEmail } from "react-icons/md";
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
+import user from "../../assets/person.jpeg";
+import Footer from "../../components/footer/Footer";
 
 function Contact() {
+  const handleDragStart = (e) => e.preventDefault();
+  const items = [
+    <div id="testimonyCard">
+      <div id="testimonyCardCardBox">
+        <img src={user} alt="" />
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500
+        </p>
+        <small>~John Doe</small>
+      </div>
+    </div>,
+    <div id="testimonyCard">
+      <div id="testimonyCardCardBox">
+      <img src={user} alt="" />
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500
+        </p>
+        <small>~John Doe</small>
+      </div>
+    </div>,
+    <div id="testimonyCard">
+      <div id="testimonyCardCardBox">
+      <img src={user} alt="" />
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500
+        </p>
+        <small>~John Doe</small>
+      </div>
+    </div>,
+    <div id="testimonyCard">
+      <div id="testimonyCardCardBox">
+      <img src={user} alt="" />
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500
+        </p>
+        <small>~John Doe</small>
+      </div>
+    </div>,
+    <div id="testimonyCard">
+      <div id="testimonyCardCardBox">
+      <img src={user} alt="" />
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500
+        </p>
+        <small>~John Doe</small>
+      </div>
+    </div>,
+    <div id="testimonyCard">
+      <div id="testimonyCardCardBox">
+      <img src={user} alt="" />
+      <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500
+        </p>
+        <small>~John Doe</small>
+      </div>
+    </div>,
+    <div id="testimonyCard">
+      <div id="testimonyCardCardBox">
+      <img src={user} alt="" />
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500
+        </p>
+        <small>~John Doe</small>
+      </div>
+    </div>,
+  ];
+  const responsive = {
+    0: { items: 1 },
+    1024: { items: 2 },
+  };
   return (
     <>
       <div className="container-fluid" id="theContactPage">
@@ -107,7 +195,24 @@ function Contact() {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
+      
       </div>
+      <div className="container-fluid" id="testimonyPageSection">
+       <div className="container">
+       <h2>What Happy Clients Say</h2>
+          <AliceCarousel
+            mouseTracking
+            items={items}
+            autoPlay
+            disableButtonsControls={true}
+            disableDotsControls={false}
+            infinite={true}
+            autoPlayInterval={3000}
+            responsive={responsive}
+          />
+       </div>
+        </div>
+      <Footer />
     </>
   );
 }
