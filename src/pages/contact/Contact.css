@@ -1,172 +1,25 @@
-#contactPage{
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(to right, #121212d9, #121212d9),
-      url("../../assets/banner06.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#theContactPage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background: linear-gradient(
+      to top,
+      #eea3fa57,
+      #1212126a,
+      rgba(248, 171, 109, 0.817)
+    ),
+    url("../../assets/backgroundbanner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#contactPage h1{
-    background: -webkit-linear-gradient(0deg, #008000, #f1975b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 3.8rem;
-    text-align: start;
-    font-family: "Montserrat", sans-serif;
-    margin-top: 20px;
+#theContactPage h1{
+  background: -webkit-linear-gradient(0deg,#a12ea1, #f1975b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: start;
+  font-family: "Montserrat", sans-serif;
 }
-
-
-#contactPageBox {
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
-  #contactUsCard {
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-  }
-  #contactUsCard h4 {
-    background: -webkit-linear-gradient(0deg,  #008000, #f1975b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 3.4rem;
-    font-family: "Montserrat", sans-serif;
-  }
-  #contactHiring{
-      background-color: #aba9a95b;
-      border-radius: 4px;
-      margin-top: 20px;
-      padding: 20px 20px;
-    
-  
-  }
-  #contactHiring h4 {
-    color:  #008000;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 3.4rem;
-    font-family: "Montserrat", sans-serif;
-  }
-  #contactHiring p {
-    color:  #008000;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif;
-  }
-  #hireCard{
-      display: flex;
-      flex-direction: column;
-      align-items: start;
-      justify-content: center;
-      border: 1px solid antiquewhite;
-  }
-  #hireCard li{
-      list-style: none;
-      color: grey;
-      font-size: 16px;
-      font-weight: 600;
-      margin-top: 15px;
-  }
-
-  #homeContact {
-    margin-top: 30px;
-  }
-  #homeContact h4 {
-    color:  #008000;
-    font-weight: 700;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  #homeContactCard {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #008000;
-    height: 100%;
-    border-radius: 5px;
-  
-    padding: 15px 0px;
-  }
-  #homeContactCardInfor {
-    width: 100%;
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    padding-left: 15px;
-    margin-top: 10px;
-  }
-  #homeContactInput {
-    border: 1px solid  #008000;
-  }
-  #homeContactCardIcon {
-    margin-right: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  #homeContactCardIcon i {
-    color: antiquewhite;
-    font-size: 25px;
-    padding: 8px;
-    border: 1px solid antiquewhite;
-    border-radius: 50%;
-  }
-  #homeContactCardIText {
-    color: antiquewhite;
-  }
-  #homeContactSocialLink {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* width: 100%; */
-    margin-top: 20px;
-    border-top: 1px solid #faebd73b;
-    padding-top: 50px;
-  }
-  #homeContactSocialLink i {
-    color: antiquewhite;
-    font-size: 25px;
-    margin: 0px 8px;
-    cursor: pointer;
-  }
-  #homeContactSocialLink i:hover {
-    color: #d29968;
-    rotate: 20deg;
-  }
-  
-  #homeContactBtn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  #homeContactBtn button {
-    padding: 10px 35px;
-    border: none;
-    background-color:  #008000;
-    color: #ffffff;
-    border-radius: 4px;
-    font-size: 18px;
-    font-weight: 700;
-    font-family: "Montserrat", sans-serif;
-  }
-  #homeContactBtn button:hover {
-    color: #faebd7;
-  }

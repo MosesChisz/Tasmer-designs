@@ -6,7 +6,7 @@ import { IoLogoWhatsapp } from "react-icons/io5";
 import { FaXTwitter } from "react-icons/fa6";
 function Footer() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" id="footerPage">
       <div class="row">
         <div class="col-lg-6 col-md-4">
           <div id="FooterCardA">

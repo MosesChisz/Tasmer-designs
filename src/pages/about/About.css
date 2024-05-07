@@ -16,11 +16,13 @@
   
 }
 #theAboutPage h2{
-    text-align: center;
-    color: #fcbc1a;
+    background: -webkit-linear-gradient(0deg,#a12ea1, #f1975b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
     font-weight: 700;
+    text-align: start;
     font-family: "Montserrat", sans-serif;
-    text-align: center;
 }
 #aboutUsCard{
     margin-top: 20px;

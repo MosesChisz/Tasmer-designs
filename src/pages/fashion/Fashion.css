@@ -15,9 +15,12 @@
   background-size: cover;
 }
 #theFashionPage h1 {
-  color: #fcbc1a;
+  background: -webkit-linear-gradient(0deg,#a12ea1, #f1975b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
   font-weight: 700;
-  text-align: center;
+  text-align: start;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -111,6 +114,14 @@
   height: auto;
   object-fit: cover;
 }
+#fashionPagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-link{
+  color: #5e145e;
+}
 #fashionCardBox{
     margin-bottom: 50px;
 }
@@ -176,13 +187,31 @@
     background-color: white;
     padding-top: 100px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 #theFashionDetailePageBox{
-    max-width: 800px;
+    max-width: 1000px;
    background-color: #faebd7ab;
-   padding: 5px;
+   padding: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+#fashionDetailsBack{
+  margin-bottom: 20px;
+}
+#fashionDetailsBack button{
+ border: none;
+ color: #5e145e;
+ font-weight: 700;
+ background-color: #d2cece2c;
+ border-radius: 4px;
+ padding: 2px 5px;
+}
+#fashionDetailsBack button:hover{
+text-decoration: underline;
+color: #a12ea1;
 }
 #theFashionDetailePageImg{
     width: 100%;
@@ -192,18 +221,29 @@
     width: 100%;
     height: auto;
     object-fit: contain;
+    border-radius: 4px;
 }
 
 #fashionCard33 a{
   padding: 12px 25px ;
     border:none;
+    text-decoration: none;
     background-image: linear-gradient(to right,#5e145e,#a12ea1, #5e145e );
     color: #fcbc1a;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
     border-radius: 4px;
 }
-
+#fashionCard33 h6{
+  margin-top: 5px;
+  font-weight: 700;
+  color: #5e145e;
+  font-family: "Montserrat", sans-serif;
+}
+#fashionCard33 p{
+  font-weight: 400;
+  color: gray;
+}
  
 @media screen and (max-width: 300px) {
   #ourWorkBtns {
@@ -215,7 +255,6 @@
     scrollbar-width: none;
     -ms-overflow-style: none;
     background-color: gainsboro;
-
     padding: 10px 10px;
   }
   #ourWorkBtns {
@@ -235,7 +274,7 @@
         align-items: center;
         justify-content: center;
         padding-top: 100px;
-        height: 60vh;
+        height: 50vh;
         background: linear-gradient(
             to top,
             #eea3fa57,
