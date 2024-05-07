@@ -88,7 +88,7 @@ function Fashion() {
             <div class="col-lg-4 col-md-4">
               <div id="fashionCard">
                 <div key={product.id} className="fashion-card">
-                  <img src={product.image} alt={product.description} />
+                <img src={product.image[0]} alt={product.description} />
                   <h6>{product.title}</h6>
                   <p>R{product.price.toFixed(2)}</p>
                   <div id="fashionCardBtn">

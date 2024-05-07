@@ -48,6 +48,7 @@
   scrollbar-width: none;
   -ms-overflow-style: none;
   background-color: gainsboro;
+  border-radius: 4px;
   width: 100%;
   padding: 10px 10px;
 }
@@ -214,13 +215,13 @@ text-decoration: underline;
 color: #a12ea1;
 }
 #theFashionDetailePageImg{
-    width: 100%;
+    /* width: 300px; */
     height: auto;
 }
 #theFashionDetailePageImg img{
     width: 100%;
-    height: auto;
-    object-fit: contain;
+    height: 350px;
+    object-fit: cover;
     border-radius: 4px;
 }
 
@@ -244,7 +245,24 @@ color: #a12ea1;
   font-weight: 400;
   color: gray;
 }
- 
+.prev-arrow,
+.next-arrow {
+  width: 30px;
+  height: 30px;
+  background-color: purple;
+}
+
+.prev-arrow:before,
+.next-arrow:before {
+  content: "<";
+  font-size: 20px;
+  color: white;
+}
+
+.next-arrow:before {
+  content: ">";
+}
+
 @media screen and (max-width: 300px) {
   #ourWorkBtns {
     display: flex;
@@ -286,4 +304,8 @@ color: #a12ea1;
         background-repeat: no-repeat;
         background-size: cover;
       }
+      #theFashionDetailePageImg{
+        width: 300px;
+        height: auto;
+    }
 }

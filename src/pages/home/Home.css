@@ -113,7 +113,7 @@
   top: -50px;
 }
 #homePageWrapBox {
-  background-color: #a12ea1;
+  background-image: linear-gradient(to right,#5e145e,#a12ea1, #5e145e );
   padding: 40px 2px;
 }
 
