@@ -223,6 +223,7 @@ color: #a12ea1;
     height: 350px;
     object-fit: cover;
     border-radius: 4px;
+    filter: brightness(50%);
 }
 
 #fashionCard33 a{
