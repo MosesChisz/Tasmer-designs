@@ -1,17 +1,27 @@
 import React, { useState } from "react";
-import homebanner from "../../assets/homebanner05.png";
 import { useNavigate } from "react-router-dom";
 import { GoArrowRight } from "react-icons/go";
 import "./Fashion.css";
 import Footer from "../../components/footer/Footer";
-import products from "../../components/common/Image";
+import Images from "../../components/common/Image";
 
 function Fashion() {
   const navigate = useNavigate();
+  const [products, setProducts] = useState(Images);
   const [activeButton, setActiveButton] = useState(null);
+  const menuItems = ["All", ...new Set(Images.map((val) => val.title))];
+
   const handleButtonClick = (buttonId) => {
     setActiveButton(buttonId);
+    if (buttonId === 1) {
+      setProducts(Images);
+    } else {
+      const selectedCategory = menuItems[buttonId - 1];
+      const filteredProducts = Images.filter((product) => product.title === selectedCategory);
+      setProducts(filteredProducts);
+    }
   };
+
   return (
     <>
       <div id="theFashionPage">
@@ -19,76 +29,26 @@ function Fashion() {
       </div>
       <div className="container" id="ourWorkBtnsBox">
         <div id="ourWorkBtns">
-          <div>
-            <button
-              className={activeButton === 1 ? "active" : ""}
-              onClick={() => handleButtonClick(1)}
-            >
-              All
-            </button>
-          </div>
-          <div>
-            <button
-              className={activeButton === 2 ? "active" : ""}
-              onClick={() => handleButtonClick(2)}
-            >
-              Male Fashion
-            </button>
-          </div>
-
-          <div>
-            <button
-              className={activeButton === 3 ? "active" : ""}
-              onClick={() => handleButtonClick(3)}
-            >
-              Female Fashion
-            </button>
-          </div>
-
-          <div>
-            <button
-              className={activeButton === 4 ? "active" : ""}
-              onClick={() => handleButtonClick(4)}
-            >
-              Kids Fashion
-            </button>
-          </div>
-
-          <div>
-            <button
-              className={activeButton === 5 ? "active" : ""}
-              onClick={() => handleButtonClick(5)}
-            >
-              Wedding
-            </button>
-          </div>
-
-          <div>
-            <button
-              className={activeButton === 6 ? "active" : ""}
-              onClick={() => handleButtonClick(6)}
-            >
-              Metric Dance
-            </button>
-          </div>
-
-          <div>
-            <button
-              className={activeButton === 7 ? "active" : ""}
-              onClick={() => handleButtonClick(7)}
-            >
-              Specials
-            </button>
-          </div>
+          {/* Map through menuItems to create buttons */}
+          {menuItems.map((item, index) => (
+            <div key={index}>
+              <button
+                className={activeButton === index + 1 ? "active" : ""}
+                onClick={() => handleButtonClick(index + 1)}
+              >
+                {item}
+              </button>
+            </div>
+          ))}
         </div>
       </div>
       <div className="container" id="fashionCardBox">
-        <div class="row">
+        <div className="row">
           {products.map((product) => (
-            <div class="col-lg-4 col-md-4">
+            <div className="col-lg-4 col-md-4" key={product.id}>
               <div id="fashionCard">
-                <div key={product.id} className="fashion-card">
-                <img src={product.image[0]} alt={product.description} />
+                <div className="fashion-card">
+                  <img src={product.image[0]} alt={product.description} />
                   <h6>{product.title}</h6>
                   <p>R{product.price.toFixed(2)}</p>
                   <div id="fashionCardBtn">
@@ -108,37 +68,37 @@ function Fashion() {
           ))}
         </div>
       </div>
-     <div id="fashionPagination">
-     <nav aria-label="Page navigation example">
-        <ul class="pagination">
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Previous">
-              <span aria-hidden="true">&laquo;</span>
-            </a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="#">
-              1
-            </a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="#">
-              2
-            </a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="#">
-              3
-            </a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Next">
-              <span aria-hidden="true">&raquo;</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-     </div>
+      <div id="fashionPagination">
+        <nav aria-label="Page navigation example">
+          <ul className="pagination">
+            <li className="page-item">
+              <a className="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li className="page-item">
+              <a className="page-link" href="#">
+                1
+              </a>
+            </li>
+            <li className="page-item">
+              <a className="page-link" href="#">
+                2
+              </a>
+            </li>
+            <li className="page-item">
+              <a className="page-link" href="#">
+                3
+              </a>
+            </li>
+            <li className="page-item">
+              <a className="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <Footer />
     </>
   );
