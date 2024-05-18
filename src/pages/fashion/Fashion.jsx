@@ -91,7 +91,7 @@ function Fashion() {
                 3
               </a>
             </li>
-            <li className="page-item">
+            <li className="page-item">  
               <a className="page-link" href="#" aria-label="Next">
                 <span aria-hidden="true">&raquo;</span>
               </a>

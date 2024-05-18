@@ -142,10 +142,10 @@ function Contact() {
                 </div>
                 <div>
                   <p id="contactIconText">
-                    123 Mars Street
+                  1 Plantation
                     <br />
-                    Jupiter Province
-                    <br /> Mars Planet
+                    Road Eastleigh
+                    <br /> Edenvale
                   </p>
                 </div>
               </div>
@@ -157,10 +157,10 @@ function Contact() {
                 </div>
                 <div>
                   <p id="contactIconText">
-                    +123 456 6789
+                  +2765 987 2956
                     <br />
-                    +123 456 6789
-                    <br /> +123 456 6789
+                    +2765 987 2956
+                    <br /> +2765 987 2956
                   </p>
                 </div>
               </div>
@@ -172,10 +172,10 @@ function Contact() {
                 </div>
                 <div>
                   <p id="contactIconText">
-                    test@example.com
+                  sales@tasmer.co.za
                     <br />
-                    test@example.com
-                    <br /> test@example.com
+                    sales@tasmer.co.za
+                    <br /> sales@tasmer.co.za
                   </p>
                 </div>
               </div>

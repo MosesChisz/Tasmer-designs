@@ -10,7 +10,7 @@ import men6 from "../../assets/men6.png"
 import men7 from "../../assets/men7.png"
 import men8 from "../../assets/men8.png"
 import kids from "../../assets/kids.jpg"
-import kids1 from "../../assets/kidz.jpg"
+import kids1 from "../../assets/kidz.png"
 import kidz3 from "../../assets/kidz3.jpg"
 import kidz4 from "../../assets/kidz4.jpg"
 import kidz5 from "../../assets/kidz5.png"
@@ -78,6 +78,30 @@ import xits7 from "../../assets/xits7.jpg"
 import xits8 from "../../assets/xits8.jpg"
 import xits9 from "../../assets/xits9.jpg"
 import xits10 from "../../assets/xits10.jpg"
+//import ank from "../../assets/ank.png"
+import ank71 from "../../assets/ank7.1.png"
+import ank70 from "../../assets/ank7.0.png"
+import ank72 from "../../assets/ank7.2.png"
+import ank7 from "../../assets/ank7.png"
+import ank8 from "../../assets/ank8.png"
+import ank81 from "../../assets/ank8.1.png"
+import ank82 from "../../assets/ank8.2.png"
+import ank83 from "../../assets/ank8.3.png"
+import ank84 from "../../assets/ank8.4.png"
+import ank9 from "../../assets/ank9.png"
+import ank91 from "../../assets/ank9.1.png"
+import ank92 from "../../assets/ank9.2.png"
+ import ank10 from "../../assets/ank10.png"
+import ank101 from "../../assets/ank10.1.png"
+import ank11 from "../../assets/ank11.png"
+import ank111 from "../../assets/ank11.1.png"
+import ank112 from "../../assets/ank11.2.png"
+import ank12 from "../../assets/ank12.png"
+import ank121 from "../../assets/ank12.1.png"
+import ank122 from "../../assets/ank12.2.png"
+import ank1 from "../../assets/ank1.jpg"
+
+
 
 
 
@@ -439,7 +463,7 @@ const products = [
 
   {
     id: 54,
-    image: [tr9],
+    image: [ank7,ank70,ank71,ank72],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
     price: 10,
@@ -447,14 +471,14 @@ const products = [
 
 {
     id: 55,
-    image: [tr9],
+    image: [ank8,ank81,ank82,ank83,ank84],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
     price: 10,
   },
 {
     id: 56,
-    image: [tr9],
+    image: [ank9,ank91,ank92],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
     price: 10,
@@ -565,7 +589,7 @@ const products = [
   },
 {
     id: 72,
-    image: [xh9],
+    image: [xh9,xh10,xh11],
     title: "Xhosa Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
     price: 10,
@@ -722,6 +746,38 @@ const products = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
     price: 10,
   },
+
+  {
+    id: 112,
+    image: [ank10,ank101],
+    title: "Ankara Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+    price: 10,
+  },
+
+{
+    id: 113,
+    image: [ank11,ank111,ank112],
+    title: "Ankara Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+    price: 10,
+  },
+{
+    id: 114,
+    image: [ank12,ank121,ank122],
+    title: "Ankara Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+    price: 10,
+  },
+{
+    id: 115,
+    image: [ank1],
+    title: "Ankara Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+    price: 10,
+  },
+
+   
   
 
 ];

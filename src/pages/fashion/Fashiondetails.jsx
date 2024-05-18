@@ -5,6 +5,7 @@ import { RiArrowLeftDoubleFill } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
 import { Carousel } from "antd";
+// import "./Fashion.css";
 
 function Fashiondetails() {
   const navigate = useNavigate();

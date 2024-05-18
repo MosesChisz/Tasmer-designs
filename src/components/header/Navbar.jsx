@@ -1,18 +1,31 @@
-import React from "react";
+import React, { useRef } from "react";
 import Logo from "../../assets/tamslogo.png";
 import { useNavigate } from "react-router-dom";
 import "./Navbar.css";
+import { Collapse } from "bootstrap";
 
 function Navbar() {
   const navigate = useNavigate();
+  const collapseRef = useRef(null);
+
+  const handleNavLinkClick = (path) => {
+    navigate(path);
+    if (collapseRef.current) {
+      const bsCollapse = new Collapse(collapseRef.current, {
+        toggle: false,
+      });
+      bsCollapse.hide();
+    }
+  };
+
   return (
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
+    <nav className="navbar navbar-expand-lg">
+      <div className="container-fluid">
         <div id="Logo">
           <img src={Logo} alt="logo" />
         </div>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -20,19 +33,17 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent" ref={collapseRef}>
+          <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             <li
-              class="nav-item"
+              className="nav-item"
               id="navList"
-              onClick={() => {
-                navigate("/");
-              }}
+              onClick={() => handleNavLinkClick("/")}
             >
               <a
-                class="nav-link active"
+                className="nav-link active"
                 aria-current="page"
                 href="#"
                 id="navLink"
@@ -41,14 +52,12 @@ function Navbar() {
               </a>
             </li>
             <li
-              class="nav-item"
+              className="nav-item"
               id="navList"
-              onClick={() => {
-                navigate("/about");
-              }}
+              onClick={() => handleNavLinkClick("/about")}
             >
               <a
-                class="nav-link active"
+                className="nav-link active"
                 aria-current="page"
                 href="#"
                 id="navLink"
@@ -57,14 +66,12 @@ function Navbar() {
               </a>
             </li>
             <li
-              class="nav-item"
+              className="nav-item"
               id="navList"
-              onClick={() => {
-                navigate("/fashion");
-              }}
+              onClick={() => handleNavLinkClick("/fashion")}
             >
               <a
-                class="nav-link active"
+                className="nav-link active"
                 aria-current="page"
                 href="#"
                 id="navLink"
@@ -73,14 +80,12 @@ function Navbar() {
               </a>
             </li>
             <li
-              class="nav-item"
+              className="nav-item"
               id="navList"
-              onClick={() => {
-                navigate("/reupholstery");
-              }}
+              onClick={() => handleNavLinkClick("/reupholstery")}
             >
               <a
-                class="nav-link active"
+                className="nav-link active"
                 aria-current="page"
                 href="#"
                 id="navLink"
@@ -89,14 +94,12 @@ function Navbar() {
               </a>
             </li>
             <li
-              class="nav-item"
+              className="nav-item"
               id="navList"
-              onClick={() => {
-                navigate("/contact");
-              }}
+              onClick={() => handleNavLinkClick("/contact")}
             >
               <a
-                class="nav-link active"
+                className="nav-link active"
                 aria-current="page"
                 href="#"
                 id="navLink"
