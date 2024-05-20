@@ -78,7 +78,7 @@ import xits7 from "../../assets/xits7.jpg"
 import xits8 from "../../assets/xits8.jpg"
 import xits9 from "../../assets/xits9.jpg"
 import xits10 from "../../assets/xits10.jpg"
-//import ank from "../../assets/ank.png"
+import xits11 from "../../assets/xist11.png"
 import ank71 from "../../assets/ank7.1.png"
 import ank70 from "../../assets/ank7.0.png"
 import ank72 from "../../assets/ank7.2.png"
@@ -100,8 +100,163 @@ import ank12 from "../../assets/ank12.png"
 import ank121 from "../../assets/ank12.1.png"
 import ank122 from "../../assets/ank12.2.png"
 import ank1 from "../../assets/ank1.jpg"
-
-
+import sep1 from "../../assets/sep1.0.png"
+import sep2 from "../../assets/sep1.1.jpg"
+import sep3 from "../../assets/sep1.jpg"
+import sep4 from "../../assets/sep2.0.jpg"
+import sep5 from "../../assets/sep2.1.jpg"
+import sep6 from "../../assets/sep2.2.jpg"
+import sep7 from "../../assets/sep2.3.jpg"
+import sep8 from "../../assets/sep2.4.jpg"
+import sep9 from "../../assets/sep2.5.jpg"
+import sep10 from "../../assets/sep2.6.png"
+import sep11 from "../../assets/sep2.jpg"
+import sep12 from "../../assets/sep3.0.jpg"
+import sep13 from "../../assets/sep3.1.png"
+import sep14 from "../../assets/sep3.2.jpg"
+import sep15 from "../../assets/sep3.3.jpg"
+import sep16 from "../../assets/sep3.4.jpg"
+import sep17 from "../../assets/sep3.5.jpg"
+import sep18 from "../../assets/sep3.6.jpg"
+import sep19 from "../../assets/sep3.jpg"
+import sep20 from "../../assets/sep4.0.jpg"
+import sep21 from "../../assets/sep4.1.jpg"
+import sep22 from "../../assets/sep4.2.jpg"
+import sep23 from "../../assets/sep4.png"
+import sep24 from "../../assets/sep5.0.jpg"
+import sep25 from "../../assets/sep5.1.jpg"
+import sep26 from "../../assets/sep5.2.png"
+import sep27 from "../../assets/sep5.3.jpg"
+import sep28 from "../../assets/sep5.4.jpg"
+import sep29 from "../../assets/sep5.5.jpg"
+import sep30 from "../../assets/sep5.6.jpg" 
+import sep31 from "../../assets/sep5.jpg"
+import sep32 from "../../assets/sep6.png"
+import sep33 from "../../assets/sep7.0.png"
+import sep34 from "../../assets/sep7.1.jpg"
+import sep35 from "../../assets/sep7.2.jpg"
+import sep36 from "../../assets/sep7.3.jpg"
+import sep37 from "../../assets/sep7.jpg"
+import sep38 from "../../assets/sep8.0.jpg"
+import sep39 from "../../assets/sep8.png"
+import sep40 from "../../assets/sep9.0.jpg"
+import sep41 from "../../assets/sep9.png"
+import sep42 from "../../assets/sep10.png"
+import sep43 from "../../assets/sep11.0.png"
+import sep44 from "../../assets/sep11.1.jpg"
+import sep45 from "../../assets/sep11.2.jpg"
+import sep46 from "../../assets/sep11.3.jpg"
+import sep47 from "../../assets/sep11.jpg"
+import sep48 from "../../assets/sep12.0.jpg"
+import sep49 from "../../assets/sep12.1.png"
+import sep50 from "../../assets/sep12.2.jpg"
+import sep51 from "../../assets/sep12.3.jpg"
+import sep52 from "../../assets/sep12.jpg"
+import sep53 from "../../assets/sep13.0.jpg"
+import sep54 from "../../assets/sep13.png"
+import clas1 from "../../assets/clas1.0.jpg"
+import clas2 from "../../assets/clas1.1.jpg"
+import clas3 from "../../assets/clas1.jpg"
+import clas4 from "../../assets/clas2.0.jpg"
+import clas5 from "../../assets/clas2.jpg"
+import clas6 from "../../assets/clas3.0.jpg"
+import clas7 from "../../assets/clas3.jpg"
+import clas8 from "../../assets/clas4.0.jpg"
+import clas9 from "../../assets/clas4.1.jpg"
+import clas10 from "../../assets/clas4.jpg"
+import clas11 from "../../assets/clas5.0.jpg"
+import clas12 from "../../assets/clas6.0.jpg"
+import clas13 from "../../assets/clas6.jpg"
+import clas14 from "../../assets/clas7.jpg"
+import clas15 from "../../assets/clas8.jpg"
+import clas16 from "../../assets/clas9.0.jpg"
+import clas17 from "../../assets/clas9.1.jpg"
+import clas18 from "../../assets/clas9.jpg"
+import clas19 from "../../assets/clas10.0.jpg"
+import clas20 from "../../assets/clas10.1.jpg"
+import clas21 from "../../assets/clas10.jpg"
+import clas22 from "../../assets/clas11.0.jpg"
+import clas23 from "../../assets/clas11.1.jpg"
+import clas24 from "../../assets/clas11.2.jpg"
+import clas25 from "../../assets/clas11.jpg"
+import clas26 from "../../assets/clas12.0.jpg"
+import clas27 from "../../assets/clas12.1.jpg"
+import clas28 from "../../assets/clas12.2.jpg"
+import clas29 from "../../assets/clas12.3.jpg"
+import clas30 from "../../assets/clas12.4.jpg" 
+import clas31 from "../../assets/clas12.jpg"
+import clas32 from "../../assets/clas13.0.jpg"
+import clas33 from "../../assets/clas13.1.jpg"
+import clas34 from "../../assets/clas13.jpg"
+import clas35 from "../../assets/clas14.0.jpg"
+import clas36 from "../../assets/clas14.1.jpg"
+import clas37 from "../../assets/clas14.2.jpg"
+import clas38 from "../../assets/clas14.3.jpg"
+import clas39 from "../../assets/clas15.0.jpg"
+import clas40 from "../../assets/clas15.1.jpg"
+import clas41 from "../../assets/clas15.jpg"
+import clas42 from "../../assets/clas16.0.jpg"
+import clas43 from "../../assets/clas16.jpg"
+import clas44 from "../../assets/clas17.0.jpg"
+import clas45 from "../../assets/clas17.1.jpg"
+import clas46 from "../../assets/clas17.2.jpg"
+import clas47 from "../../assets/clas17.3.jpg"
+import clas48 from "../../assets/clas17.4.jpg"
+import clas49 from "../../assets/clas17.5.jpg"
+import clas50 from "../../assets/clas17.6.jpg"
+import clas51 from "../../assets/clas17.7.jpg"
+import clas52 from "../../assets/clas17.jpg"
+import clas53 from "../../assets/clas18.0.jpg"
+import clas55 from "../../assets/clas18.1.jpg"
+import clas56 from "../../assets/clas18.2.jpg"
+import clas57 from "../../assets/clas18.jpg"
+import clas58 from "../../assets/clas19.0.jpg"
+import clas59 from "../../assets/clas19.1.jpg"
+import clas60 from "../../assets/clas19.jpg"
+import clas61 from "../../assets/clas20.0.jpg"
+import clas62 from "../../assets/clas20.1.jpg"
+import clas63 from "../../assets/clas20.2.jpg"
+import clas64 from "../../assets/clas20.jpg"
+import clas66 from "../../assets/clas21.1.jpg"
+import clas67 from "../../assets/clas21.2.jpg"
+import clas68 from "../../assets/clas21.3.jpg"
+import clas69 from "../../assets/clas21.4.jpg"
+import clas70 from "../../assets/clas21.5.jpg"
+import clas71 from "../../assets/clas21.jpg"
+import clas72 from "../../assets/clas22.0.jpg"
+import clas73 from "../../assets/clas22.1.jpg"
+import clas74 from "../../assets/clas22.jpg"
+import clas75 from "../../assets/clas23.0.jpg"
+import clas76 from "../../assets/clas23.1.jpg"
+import clas77 from "../../assets/clas23.jpg"
+import clas79 from "../../assets/clas24.1.jpg"
+import clas80 from "../../assets/clas24.2.jpg"
+import clas81 from "../../assets/clas24.3.jpg"
+import clas82 from "../../assets/clas24.jpg"
+import clas83 from "../../assets/clas25.0.jpg"
+import clas84 from "../../assets/clas25.1.jpg"
+import clas85 from "../../assets/clas25.2.jpg"
+import clas86 from "../../assets/clas25.jpg"
+import clas88 from "../../assets/clas26.1.jpg"
+import clas89 from "../../assets/clas26.2.jpg"
+import clas90 from "../../assets/clas26.3.jpg"
+import clas91 from "../../assets/clas26.4.jpg"
+import clas92 from "../../assets/clas26.5.jpg"
+import clas94 from "../../assets/clas27.0.jpg"
+import clas95 from "../../assets/clas27.1.jpg"
+import clas96 from "../../assets/clas27.2.jpg"
+import clas97 from "../../assets/clas27.3.jpg"
+import clas98 from "../../assets/clas27.4.jpg"
+import clas99 from "../../assets/clas27.5.jpg"
+import clas101 from "../../assets/clas28.0.jpg"
+import clas102 from "../../assets/clas28.1.jpg"
+import clas103 from "../../assets/clas28.2.jpg"
+import clas104 from "../../assets/clas28.jpg"
+import clas105 from "../../assets/clas29.0.jpg"
+import clas106 from "../../assets/clas29.1.jpg"
+import clas107 from "../../assets/clas29.2.jpg"
+import clas108 from "../../assets/clas29.jpg"
+import clas109 from "../../assets/clas30.jpg"
 
 
 
@@ -485,7 +640,7 @@ const products = [
   },
 {
     id: 58,
-    image: [tr9],
+    image: [sep42],
     title: "Sepedi Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
@@ -507,7 +662,7 @@ const products = [
 
 {
     id: 61,
-    image: [tr9],
+    image: [xits11],
     title: "Xitsonga Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
@@ -777,7 +932,377 @@ const products = [
     price: 10,
   },
 
-   
+  {
+    id: 116,
+    image: [sep1,sep2,sep3],
+    title: "Sepedi Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 117,
+    image: [sep10,sep4,sep5,sep6,sep7,sep8,sep9,sep11],
+    title: "Sepedi Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 118,
+    image: [sep13,sep12,sep14,sep15,sep16,sep17,sep18,sep19],
+    title: "Sepedi Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 119,
+    image: [sep23,sep22,sep21,sep20],
+    title: "Sepedi Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 120,
+    image: [sep26,sep24,sep25,sep27,sep28,sep29,sep30,sep31],
+    title: "Sepedi Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+
+{
+    id: 121,
+    image: [sep32],
+    title: "Sepedi Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 122,
+    image: [sep33,sep34,sep35,sep36,sep37],
+    title: "Sepedi Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 123,
+    image: [sep39,sep38],
+    title: "Sepedi Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 124,
+    image: [sep41,sep40],
+    title: "Sepedi Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 125,
+    image: [sep42],
+    title: "Sepedi Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 126,
+    image: [sep43,sep44,sep45,sep46,sep47],
+    title: "Sepedi Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 127,
+    image: [sep49,sep48,sep50,sep51,sep52],
+    title: "Sepedi Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 128,
+    image: [sep53,sep54],
+    title: "Sepedi Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 129,
+    image: [sep1],
+    title: "Sepedi Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 130,
+    image: [sep10],
+    title: "Sepedi Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 131,
+    image: [sep13],
+    title: "Sepedi Traditional",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+
+  {
+    id: 132,
+    image: [clas1,clas2,clas3],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 133,
+    image: [clas4,clas5],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 134,
+    image: [clas6,clas7],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 135,
+    image: [clas8,clas9,clas10],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 136,
+    image: [clas11],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+
+{
+    id: 137,
+    image: [clas12,clas13],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 138,
+    image: [clas14],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 139,
+    image: [clas15],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 140,
+    image: [clas19,clas20,clas21],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 141,
+    image: [clas22,clas23,clas24,clas25],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 142,
+    image: [clas26,clas27,clas28,clas29,clas30,clas31],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 143,
+    image: [clas32,clas33,clas34],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 144,
+    image: [clas35,clas36,clas37,clas38],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 145,
+    image: [clas39,clas40,clas41],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 146,
+    image: [clas42,clas43],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 147,
+    image: [clas44,clas45,clas46,clas47,clas48,clas49,clas50,clas51,clas52],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 148,
+    image: [clas44,clas45,clas46,clas47,clas48,clas49,clas50,clas51,clas52],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 149,
+    image: [clas44,clas45,clas46,clas47,clas48,clas49,clas50,clas51,clas52],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 150,
+    image: [clas44,clas45,clas46,clas47,clas48,clas49,clas50,clas51,clas52],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 151,
+    image: [clas44,clas45,clas46,clas47,clas48,clas49,clas50,clas51,clas52],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 152,
+    image: [clas44,clas45,clas46,clas47,clas48,clas49,clas50,clas51,clas52],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 153,
+    image: [clas44,clas45,clas46,clas47,clas48,clas49,clas50,clas51,clas52],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 154,
+    image: [clas53,clas55,clas56,clas57],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 155,
+    image: [clas58,clas59,clas60],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 156,
+    image: [clas61,clas62,clas63,clas64],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 157,
+    image: [clas66,clas67,clas68,clas69,clas70,clas71],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 158,
+    image: [clas72,clas73,clas74],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 159,
+    image: [clas75,clas76,clas77],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 160,
+    image: [clas79,clas80,clas81,clas82],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 161,
+    image: [clas83,clas84,clas85,clas86],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 162,
+    image: [clas88,clas89,clas90,clas91,clas92],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+
+{
+    id: 163,
+    image: [clas94,clas95,clas96,clas97,clas98,clas99],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+
+{
+    id: 164,
+    image: [clas101,clas102,clas103,clas104],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+
+{
+    id: 165,
+    image: [clas105,clas106,clas107,clas108],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+{
+    id: 166,
+    image: [clas109],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+  {
+    id: 167,
+    image: [clas16,clas17,clas18],
+    title: "Classy/Events Dress",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    price: 10,
+  },
+
   
 
 ];
