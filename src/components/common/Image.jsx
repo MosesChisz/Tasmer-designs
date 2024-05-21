@@ -9,11 +9,23 @@ import men5 from "../../assets/men5.png"
 import men6 from "../../assets/men6.png"
 import men7 from "../../assets/men7.png"
 import men8 from "../../assets/men8.png"
+import men9 from "../../assets/men9.png"
 import kids from "../../assets/kids.jpg"
 import kids1 from "../../assets/kidz.png"
 import kidz3 from "../../assets/kidz3.jpg"
 import kidz4 from "../../assets/kidz4.jpg"
 import kidz5 from "../../assets/kidz5.png"
+import kidz6 from "../../assets/kidz6.jpg"
+import kidz7 from "../../assets/kidz7.png"
+import kidz8 from "../../assets/kidz8.png"
+import kidz9 from "../../assets/kidz9.png"
+import kidz10 from "../../assets/kidz10.png"
+import kidz11 from "../../assets/kidz11.png"
+import kidz12 from "../../assets/kidz12.png"
+import kidz13 from "../../assets/kidz13.png"
+import kidz14 from "../../assets/kidz14.png"
+import kidz15 from "../../assets/kidz15.png"
+import kidz16 from "../../assets/kidz16.png"
 import wed1 from "../../assets/w1.jpg"
 import wed2 from "../../assets/w2.jpg"
 import wed3 from "../../assets/wed1.jpg"
@@ -257,6 +269,79 @@ import clas106 from "../../assets/clas29.1.jpg"
 import clas107 from "../../assets/clas29.2.jpg"
 import clas108 from "../../assets/clas29.jpg"
 import clas109 from "../../assets/clas30.jpg"
+import shwe1 from "../../assets/shwe.png"
+import shwe2 from "../../assets/shwe1.0.jpg"
+import shwe3 from "../../assets/shwe1.1.jpg"
+import shwe4 from "../../assets/shwe1.2.jpg"
+import shwe5 from "../../assets/shwe1.3.jpg"
+import shwe6 from "../../assets/shwe1.png"
+import shwe7 from "../../assets/shwe2.png"
+import shwe8 from "../../assets/shwe2.0.jpg"
+import shwe9 from "../../assets/shwe2.1.jpg"
+import shwe10 from "../../assets/shwe2.2.jpg"
+import shwe11 from "../../assets/shwe2.3.jpg"
+import shwe12 from "../../assets/shwe2.4.jpg"
+import shwe13 from "../../assets/shwe3.png"
+import shwe14 from "../../assets/shwe3.0.jpg"
+import shwe15 from "../../assets/shwe3.1.jpg"
+import shwe16 from "../../assets/shwe4.0.jpg"
+import shwe17 from "../../assets/shwe4.png"
+import shwe18 from "../../assets/shwe5.png"
+import shwe19 from "../../assets/shwe5.0.jpg"
+import shwe20 from "../../assets/shwe5.1.jpg"
+import shwe21 from "../../assets/shwe5.2.jpg"
+import shwe22 from "../../assets/shwe6.png"
+import shwe23 from "../../assets/shwe6.0.jpg"
+import shwe24 from "../../assets/shwe6.1.jpg"
+import shwe25 from "../../assets/shwe7.png"
+import shwe26 from "../../assets/shwe7.0.jpg"
+import shwe27 from "../../assets/shwe8.png"
+import shwe28 from "../../assets/shwe8.0.jpg"
+import shwe29 from "../../assets/shwe8.1.jpg"
+import shwe30 from "../../assets/shwe8.2.jpg"
+import shwe31 from "../../assets/shwe8.3.jpg"
+import shwe32 from "../../assets/shwe9.jpg"
+import shwe33 from "../../assets/shwe10.png"
+import shwe34 from "../../assets/shwe10.0.jpg"
+import shwe35 from "../../assets/shwe10.1.jpg"
+import shwe36 from "../../assets/shwe10.2.jpg"
+import shwe37 from "../../assets/shwe11.png"
+import shwe38 from "../../assets/shwe11.0.jpg"
+import shwe39 from "../../assets/shwe11.1.jpg"
+import shwe40 from "../../assets/shwe11.2.jpg"
+import shwe41 from "../../assets/shwe12.png"
+import shwe42 from "../../assets/shwe12.0.jpg"
+import shwe43 from "../../assets/shwe12.1.jpg"
+import shwe44 from "../../assets/shwe12.2.jpg"
+import shwe45 from "../../assets/shwe13.png"
+import shwe46 from "../../assets/shwe13.0.jpg"
+import shwe47 from "../../assets/shwe13.1.jpg"
+import shwe48 from "../../assets/shwe13.2.jpg"
+import shwe49 from "../../assets/shwe14.png"
+import shwe50 from "../../assets/shwe14.0.jpg"
+import shwe51 from "../../assets/shwe14.1.jpg"
+import shwe52 from "../../assets/shwe14.2.jpg"
+import shwe53 from "../../assets/shwe14.3.jpg"
+import shwe54 from "../../assets/shwe14.4.jpg"
+import shwe55 from "../../assets/shwe15.png"
+import shwe56 from "../../assets/shwe15.0.jpg"
+import shwe57 from "../../assets/shwe15.1.jpg"
+import shwe58 from "../../assets/shwe16.png"
+import shwe59 from "../../assets/shwe16.1.jpg"
+import shwe60 from "../../assets/shwe17.png"
+import shwe61 from "../../assets/shwe17.0.jpg"
+import shwe62 from "../../assets/shwe17.1.jpg"
+import shwe63 from "../../assets/shwe18.png"
+import shwe64 from "../../assets/shwe18.0.jpg"
+import shwe65 from "../../assets/shwe19.png"
+import shwe67 from "../../assets/shwe19.0.jpg"
+import shwe68 from "../../assets/shwe20.png"
+import shwe69 from "../../assets/shwe20.0.jpg"
+import shwe70 from "../../assets/shwe20.1.jpg"
+import shwe71 from "../../assets/shwe20.2.jpg"
+import shwe72 from "../../assets/shwe20.3.jpg"
+import shwe73 from "../../assets/shwe20.4.jpg"
+
 
 
 
@@ -375,14 +460,14 @@ const products = [
 {
     id: 16,
     image: [matri2],
-    title: "Metric Dance",
+    title: "Matric Dance",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 17,
     image: [matri3],
-    title: "Metric Dance",
+    title: "Matric Dance",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
@@ -390,14 +475,14 @@ const products = [
 {
     id: 18,
     image: [matri4],
-    title: "Metric Dance",
+    title: "Matric Dance",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 19,
     image: [matri5],
-    title: "Metric Dance",
+    title: "Matric Dance",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
@@ -686,7 +771,7 @@ const products = [
   {
     id: 64,
     image: [tr9],
-    title: "Shweshe Fashion",
+    title: "Shweshwe Fashion",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
@@ -862,42 +947,42 @@ const products = [
   {
     id: 106,
     image: [matri55],
-    title: "Metric Dance",
+    title: "Matric Dance",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 107,
     image: [matri6],
-    title: "Metric Dance",
+    title: "Matric Dance",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 108,
     image: [matri7],
-    title: "Metric Dance",
+    title: "Matric Dance",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 109,
     image: [matri8],
-    title: "Metric Dance",
+    title: "Matric Dance",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 110,
     image: [matri9],
-    title: "Metric Dance",
+    title: "Matric Dance",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 111,
     image: [matri10],
-    title: "Metric Dance",
+    title: "Matric Dance",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
@@ -1304,6 +1389,246 @@ const products = [
   },
 
   
+{
+  id: 168,
+  image: [shwe1],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 169,
+  image: [shwe6,shwe2,shwe3,shwe4,shwe5],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 170,
+  image: [shwe7,shwe8,shwe9,shwe10,shwe11,shwe12],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 171,
+  image: [shwe13,shwe14,shwe15],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 172,
+  image: [shwe17,shwe16],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 173,
+  image: [shwe18,shwe19,shwe20,shwe21],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 174,
+  image: [shwe22,shwe23,shwe24],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 175,
+  image: [shwe25,shwe26],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 176,
+  image: [shwe27,shwe28,shwe29,shwe30,shwe31],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 177,
+  image: [shwe32],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 178,
+  image: [shwe33,shwe34,shwe35,shwe36],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},{
+  id: 179,
+  image: [shwe37,shwe38,shwe39,shwe40],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 180,
+  image: [shwe41,shwe42,shwe43,shwe44],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 181,
+  image: [shwe45,shwe46,shwe47,shwe48],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 182,
+  image: [shwe49,shwe50,shwe51,shwe52,shwe53,shwe54],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 183,
+  image: [shwe55,shwe56,shwe57],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 184,
+  image: [shwe58,shwe59],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 185,
+  image: [shwe60,shwe61,shwe62],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 186,
+  image: [shwe63,shwe64],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 187,
+  image: [shwe65,shwe67],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 188,
+  image: [shwe68,shwe69,shwe70,shwe71,shwe72,shwe73],
+  title: "Shweshwe Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+}, 
+{
+    
+  id: 189,
+  image: [men9],
+  title: "Male Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 190,
+  image: [kidz7],
+  title: "Kids Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 191,
+  image: [kidz8],
+  title: "Kids Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 192,
+  image: [kidz9],
+  title: "Kids Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 193,
+  image: [kidz10],
+  title: "Kids Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 194,
+  image: [kidz11],
+  title: "Kids Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 195,
+  image: [kidz12],
+  title: "Kids Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 196,
+  image: [kidz13],
+  title: "Kids Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 197,
+  image: [kidz14],
+  title: "Kids Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 198,
+  image: [kidz15],
+  title: "Kids Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 199,
+  image: [kidz16],
+  title: "Kids Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 200,
+  image: [kidz6],
+  title: "Kids Fashion",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
 
 ];
 
