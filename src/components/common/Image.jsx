@@ -26,7 +26,7 @@ import kidz13 from "../../assets/kidz13.png"
 import kidz14 from "../../assets/kidz14.png"
 import kidz15 from "../../assets/kidz15.png"
 import kidz16 from "../../assets/kidz16.png"
-import wed1 from "../../assets/w1.jpg"
+import wed1 from "../../assets/w1.png"
 import wed2 from "../../assets/w2.jpg"
 import wed3 from "../../assets/wed1.jpg"
 import wed4 from "../../assets/wed2.jpg"
@@ -34,6 +34,19 @@ import wed5 from "../../assets/wed3.jpg"
 import wed6 from "../../assets/wed4.jpg"
 import wed7 from "../../assets/wed5.jpg"
 import wed8 from "../../assets/wed6.jpg"
+import wed9 from "../../assets/wed9.png"
+import wed10 from "../../assets/wed10.png"
+import wed11 from "../../assets/wed11.png"
+import wed12 from "../../assets/wed12.png"
+import wed13 from "../../assets/wed13.png"
+import wed14 from "../../assets/wed14.png"
+import wed15 from "../../assets/wed15.png"
+import wed16 from "../../assets/wed16.png"
+import wed17 from "../../assets/wed17.png"
+import wed18 from "../../assets/wed18.png"
+import wed19 from "../../assets/wed19.png"
+import wed20 from "../../assets/wed20.png"
+import wed21 from "../../assets/wed21.png"
 import matri1 from "../../assets/matr1.jpg"
 import matri2 from "../../assets/matr2.jpg"
 import matri3 from "../../assets/matr3.jpg"
@@ -1628,6 +1641,132 @@ const products = [
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   price: 10,
 },
+
+{
+  id: 201,
+  image: [wed1],
+  title: "White Wedding",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 202,
+  image: [wed4],
+  title: "White Wedding",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 203,
+  image: [wed5],
+  title: "White Wedding",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 204,
+  image: [wed9],
+  title: "White Wedding",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 205,
+  image: [wed10],
+  title: "White Wedding",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 206,
+  image: [wed11],
+  title: "White Wedding",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 207,
+  image: [wed12],
+  title: "White Wedding",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 208,
+  image: [wed13],
+  title: "White Wedding",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 209,
+  image: [wed14],
+  title: "White Wedding",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 210,
+  image: [wed15],
+  title: "White Wedding",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 211,
+  image: [wed16],
+  title: "White Wedding",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 212,
+  image: [wed17],
+  title: "White Wedding",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 213,
+  image: [wed18],
+  title: "White Wedding",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+{
+  id: 214,
+  image: [wed19],
+  title: "White Wedding",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 215,
+  image: [wed20],
+  title: "Matric Dance",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+{
+  id: 216,
+  image: [wed21],
+  title: "Matric Dance",
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  price: 10,
+},
+
+
+
 
 
 ];
