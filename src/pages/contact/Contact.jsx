@@ -186,7 +186,7 @@ function Contact() {
         <div id="contactUsMap">
           <h4>Visit Us</h4>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114584.73585386139!2d28.04002455!3d-26.1715215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c68f0406a51%3A0x238ac9d9b1d34041!2sJohannesburg!5e0!3m2!1sen!2sza!4v1713689111402!5m2!1sen!2sza"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.8740448741437!2d28.160508000000004!3d-26.1356495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9513ab5df8e1e5%3A0xd62d6cdf27139081!2s1%20Plantation%20Rd%2C%20Eastleigh%2C%20Edenvale%2C%201609!5e0!3m2!1sen!2sza!4v1716556643739!5m2!1sen!2sza"
             width="100%"
             height="400"
             style={{ border: 0 }}
