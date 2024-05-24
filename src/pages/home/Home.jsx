@@ -28,6 +28,13 @@ function Home() {
           the season's hottest trends. From chic essentials to statement pieces,
           find your style inspiration here.
         </p>
+        <button
+              onClick={() => {
+                navigate("/fashion");
+              }}
+            >
+              View more
+            </button>
       </div>
     </div>,
     <div id="reviewCard01">
@@ -38,6 +45,13 @@ function Home() {
           must-haves. Shop quality pieces that effortlessly blend style and
           sophistication for every occasion
         </p>
+        <button
+              onClick={() => {
+                navigate("/fashion");
+              }}
+            >
+              View more
+            </button>
       </div>
     </div>,
     <div id="reviewCard02">
@@ -48,6 +62,13 @@ function Home() {
           Whether your vibe is edgy, bohemian, or minimalist, discover pieces
           that reflect your personality and make a statement
         </p>
+        <button
+              onClick={() => {
+                navigate("/fashion");
+              }}
+            >
+              View more
+            </button>
       </div>
     </div>,
   ];
