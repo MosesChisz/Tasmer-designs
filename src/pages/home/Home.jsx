@@ -156,31 +156,24 @@ function Home() {
                 upholstery industry.
               </p>
               <p>
-                We custom or tailor make on all type of clothes for any occasion
-                ( men, ladies and kids) Traditional attires, matric dance
-                dresses, bridal wear, uniforms, formal and casual wear, we do it
-                all. Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a type
-                specimen book. It has survived not only five centuries, but also
-                the leap into electronic typesetting, remaining essentially
-                unchanged. It was popularised in the 1960s with the release of
-                Letraset sheets containing Lorem Ipsum passages, and more
-                recently with desktop publishing software like Aldus PageMaker
-                including versions of Lorem Ipsum
+                 We've a wide range of fabrics to choose from, clients have 
+                 options to supply their desired materials as well. Our team is 
+                 vowed to work together and give the best quality of work, 
+                 bringing out that stunning, confident and elegant look that our 
+                 clients deserve individually, as well as to give your house a home 
+                 welcoming look, in and outdoors.
               </p>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum
+                We custom or tailor make on all type of clothes for any 
+                occasion ( men, ladies and kids) Traditional attires, matric 
+                dance dresses, bridal wear, uniforms, formal and casual wear, 
+                we do it all
+                We custom make and repair or recover all type of furniture 
+                (couches, headboards, dining chairs, ottomans etc). 
+                We make outdoor/patio cushions, any size and shape, 
+                Tasmer got you covered. Outdoor blinds, patio umbrellas 
+                weather covers, we do it all.
+                
               </p>
               <button
                 onClick={() => {
