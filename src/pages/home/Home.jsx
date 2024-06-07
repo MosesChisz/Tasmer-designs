@@ -1,17 +1,19 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import "./Home.css";
 
 import homeaboutbanner from "../../assets/aboutbanner02.png";
-import { SlLocationPin } from "react-icons/sl";
-import { SlCalender } from "react-icons/sl";
-import { MdOutlinePhone } from "react-icons/md";
-import { MdOutlineMailOutline } from "react-icons/md";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Footer from "../../components/footer/Footer";
 
 import { useNavigate } from "react-router-dom";
 import Latestfashion from "../../components/latestfashion/Latestfashion";
+
+// Lazy load components
+const LazySlLocationPin = lazy(() => import("react-icons/sl").then(module => ({ default: module.SlLocationPin })));
+const LazySlCalender = lazy(() => import("react-icons/sl").then(module => ({ default: module.SlCalender })));
+const LazyMdOutlinePhone = lazy(() => import("react-icons/md").then(module => ({ default: module.MdOutlinePhone })));
+const LazyMdOutlineMailOutline = lazy(() => import("react-icons/md").then(module => ({ default: module.MdOutlineMailOutline })));
 
 function Home() {
   const navigate = useNavigate();
@@ -96,10 +98,9 @@ function Home() {
         <div class="row" id="homePageWrapBox">
           <div class="col-lg-3 col-md-4">
             <div id="homePageWrapContact">
-              <span>
-                {" "}
-                <SlLocationPin id="homePageWrapContactIcon" />
-              </span>
+              <Suspense fallback={<div>Loading...</div>}>
+                <LazySlLocationPin id="homePageWrapContactIcon" />
+              </Suspense>
               <p>
                 1 Plantation Road
                 <br />
@@ -109,10 +110,9 @@ function Home() {
           </div>
           <div class="col-lg-3 col-md-4">
             <div id="homePageWrapContact">
-              <span>
-                {" "}
-                <SlCalender id="homePageWrapContactIcon" />
-              </span>
+              <Suspense fallback={<div>Loading...</div>}>
+                <LazySlCalender id="homePageWrapContactIcon" />
+              </Suspense>
               <p>
                 Mon~Sat
                 <br />
@@ -122,10 +122,9 @@ function Home() {
           </div>
           <div class="col-lg-3 col-md-4">
             <div id="homePageWrapContact">
-              <span>
-                {" "}
-                <MdOutlinePhone id="homePageWrapContactIcon" />
-              </span>
+              <Suspense fallback={<div>Loading...</div>}>
+                <LazyMdOutlinePhone id="homePageWrapContactIcon" />
+              </Suspense>
               <p>
                 +27 65 987 2956
                 <br /> +27 65 987 2956
@@ -134,10 +133,9 @@ function Home() {
           </div>
           <div class="col-lg-3 col-md-4">
             <div id="homePageWrapContact">
-              <span>
-                {" "}
-                <MdOutlineMailOutline id="homePageWrapContactIcon" />
-              </span>
+              <Suspense fallback={<div>Loading...</div>}>
+                <LazyMdOutlineMailOutline id="homePageWrapContactIcon" />
+              </Suspense>
               <p>
                 test@example.com
                 <br /> test@example.com
@@ -147,7 +145,7 @@ function Home() {
         </div>
 
         <div class="row" id="homeAboutContainer">
-          <div class="col-lg-6 col-md-4">
+        <div class="col-lg-6 col-md-4">
             <div id="homeAboutContainerCard">
               <h4>Who Are We ?</h4>
               <p>

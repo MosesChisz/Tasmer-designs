@@ -1,6 +1,6 @@
 import homeaboutbanner from "../../assets/aboutbanner02.png";
 import image02 from "../../assets/ank6.jpg";
-import image03 from "../../assets/wed3.jpg";
+//import image03 from "../../assets/wed3.jpg";
 import men1 from "../../assets/men1.png"
 import men2 from "../../assets/men2.png"
 import men3 from "../../assets/men3.png"
@@ -26,27 +26,27 @@ import kidz13 from "../../assets/kidz13.png"
 import kidz14 from "../../assets/kidz14.png"
 import kidz15 from "../../assets/kidz15.png"
 import kidz16 from "../../assets/kidz16.png"
-import wed1 from "../../assets/w1.png"
+import wed1 from "../../assets/wedd1.jpg"
 import wed2 from "../../assets/w2.jpg"
-import wed3 from "../../assets/wed1.jpg"
+import wed3 from "../../assets/wedd2.jpg"
 import wed4 from "../../assets/wed2.jpg"
-import wed5 from "../../assets/wed3.jpg"
+import wed5 from "../../assets/wedd2.jpg"
 import wed6 from "../../assets/wed4.jpg"
 import wed7 from "../../assets/wed5.jpg"
 import wed8 from "../../assets/wed6.jpg"
-import wed9 from "../../assets/wed9.png"
-import wed10 from "../../assets/wed10.png"
-import wed11 from "../../assets/wed11.png"
-import wed12 from "../../assets/wed12.png"
-import wed13 from "../../assets/wed13.png"
-import wed14 from "../../assets/wed14.png"
-import wed15 from "../../assets/wed15.png"
-import wed16 from "../../assets/wed16.png"
-import wed17 from "../../assets/wed17.png"
-import wed18 from "../../assets/wed18.png"
-import wed19 from "../../assets/wed19.png"
-import wed20 from "../../assets/wed20.png"
-import wed21 from "../../assets/wed21.png"
+import wed9 from "../../assets/wed9.jpg"
+import wed10 from "../../assets/wed10.jpg"
+import wed11 from "../../assets/wed11.jpg"
+import wed12 from "../../assets/wed12.jpg"
+import wed13 from "../../assets/wed13.jpg"
+import wed14 from "../../assets/wed14.jpg"
+import wed15 from "../../assets/wed15.jpg"
+import wed16 from "../../assets/wed16.jpg"
+import wed17 from "../../assets/wed17.jpg"
+import wed18 from "../../assets/wed18.jpg"
+// import wed19 from "../../assets/wed19.png"
+// import wed20 from "../../assets/wed20.png"
+// import wed21 from "../../assets/wed21.png"
 import matri1 from "../../assets/matr1.jpg"
 import matri2 from "../../assets/matr2.jpg"
 import matri3 from "../../assets/matr3.jpg"
@@ -60,7 +60,7 @@ import matri9 from "../../assets/matr9.jpg"
 import matri10 from "../../assets/matr10.jpg"
 import wedd from "../../assets/wedd.jpg"
 import wedd1 from "../../assets/wedd1.jpg"
-import wedd3 from "../../assets/wedd3.png"
+//import wedd3 from "../../assets/wedd3.png"
 //import wedd4 from "../../assets/wedd4.jpg"
 import wedd2 from "../../assets/wedd2.jpg"
 import lad1 from "../../assets/lad1.png"
@@ -75,9 +75,10 @@ import tr2 from "../../assets/tr2.jpg"
 import tr3 from "../../assets/tr3.jpg"
 import tr4 from "../../assets/tr4.jpg"
 import tr5 from "../../assets/tr5.jpg"
-import tr6 from "../../assets/tr6 .png"
-import tr7 from "../../assets/tr7.png"
-import tr9 from "../../assets/tr9.png"
+import tr6 from "../../assets/tr6.jpg"
+import tr7 from "../../assets/tr7.jpg"
+import tr9 from "../../assets/tr9.jpg"
+import tr11 from "../../assets/tr11.jpg"
 import wedd4 from "../../assets/wedd4.jpg"
 import xh2 from "../../assets/xh2.jpg"
 import xh3 from "../../assets/xh3.jpg"
@@ -104,26 +105,26 @@ import xits8 from "../../assets/xits8.jpg"
 import xits9 from "../../assets/xits9.jpg"
 import xits10 from "../../assets/xits10.jpg"
 import xits11 from "../../assets/xist11.png"
-import ank71 from "../../assets/ank7.1.png"
-import ank70 from "../../assets/ank7.0.png"
-import ank72 from "../../assets/ank7.2.png"
-import ank7 from "../../assets/ank7.png"
-import ank8 from "../../assets/ank8.png"
-import ank81 from "../../assets/ank8.1.png"
-import ank82 from "../../assets/ank8.2.png"
-import ank83 from "../../assets/ank8.3.png"
-import ank84 from "../../assets/ank8.4.png"
-import ank9 from "../../assets/ank9.png"
-import ank91 from "../../assets/ank9.1.png"
-import ank92 from "../../assets/ank9.2.png"
- import ank10 from "../../assets/ank10.png"
-import ank101 from "../../assets/ank10.1.png"
-import ank11 from "../../assets/ank11.png"
-import ank111 from "../../assets/ank11.1.png"
-import ank112 from "../../assets/ank11.2.png"
-import ank12 from "../../assets/ank12.png"
-import ank121 from "../../assets/ank12.1.png"
-import ank122 from "../../assets/ank12.2.png"
+// import ank71 from "../../assets/ank7.1.png"
+// import ank70 from "../../assets/ank7.0.png"
+// import ank72 from "../../assets/ank7.2.png"
+// import ank7 from "../../assets/ank7.png"
+// import ank8 from "../../assets/ank8.png"
+// import ank81 from "../../assets/ank8.1.png"
+// import ank82 from "../../assets/ank8.2.png"
+// import ank83 from "../../assets/ank8.3.png"
+// import ank84 from "../../assets/ank8.4.png"
+// import ank9 from "../../assets/ank9.png"
+// import ank91 from "../../assets/ank9.1.png"
+// import ank92 from "../../assets/ank9.2.png"
+//  import ank10 from "../../assets/ank10.png"
+// import ank1 from "../../assets/ank1.jpg"
+import ank2 from "../../assets/ank2.jpg"
+import ank3 from "../../assets/ank3.jpg"
+import ank4 from "../../assets/ank4.jpg"
+import ank5 from "../../assets/ank5.jpg"
+import ank6 from "../../assets/ank6.jpg"
+import ank7 from "../../assets/ank7.jpg"
 import ank1 from "../../assets/ank1.jpg"
 import sep1 from "../../assets/sep1.0.png"
 import sep2 from "../../assets/sep1.1.jpg"
@@ -154,7 +155,7 @@ import sep26 from "../../assets/sep5.2.png"
 import sep27 from "../../assets/sep5.3.jpg"
 import sep28 from "../../assets/sep5.4.jpg"
 import sep29 from "../../assets/sep5.5.jpg"
-import sep30 from "../../assets/sep5.6.jpg" 
+import sep30 from "../../assets/sep5.6.jpg"
 import sep31 from "../../assets/sep5.jpg"
 import sep32 from "../../assets/sep6.png"
 import sep33 from "../../assets/sep7.0.png"
@@ -208,7 +209,7 @@ import clas26 from "../../assets/clas12.0.jpg"
 import clas27 from "../../assets/clas12.1.jpg"
 import clas28 from "../../assets/clas12.2.jpg"
 import clas29 from "../../assets/clas12.3.jpg"
-import clas30 from "../../assets/clas12.4.jpg" 
+import clas30 from "../../assets/clas12.4.jpg"
 import clas31 from "../../assets/clas12.jpg"
 import clas32 from "../../assets/clas13.0.jpg"
 import clas33 from "../../assets/clas13.1.jpg"
@@ -360,7 +361,7 @@ import shwe73 from "../../assets/shwe20.4.jpg"
 
 const products = [
   {
-    
+
       id: 1,
       image: [men1],
       title: "Male Fashion",
@@ -381,7 +382,7 @@ const products = [
       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       price: 10,
     },
-  
+
   {
       id: 4,
       image: [men4],
@@ -420,7 +421,7 @@ const products = [
 
   {
     id: 9,
-    image: [homeaboutbanner,image02,image03],
+    image: [homeaboutbanner,image02],
     title: "Female Fashion",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
@@ -428,7 +429,7 @@ const products = [
 
   {
     id: 10,
-    image: [image02,image03],
+    image: [image02],
     title: "Female Fashion",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -436,28 +437,28 @@ const products = [
   },
   {
     id: 11,
-    image: [wedd,image02,homeaboutbanner,image02],
+    image: [wed1],
     title: "White Wedding",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 30,
   },
   {
     id: 12,
-    image: [wedd1,image02,image03],
+    image: [wed9],
     title: "White Wedding",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 30,
   },
   {
     id: 13,
-    image: [wedd2,image03,homeaboutbanner,image02],
+    image: [wed10],
     title: "White Wedding",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 30,
   },
   {
     id: 14,
-    image: [wedd3,homeaboutbanner,image03],
+    image: [wed11],
     title: "White Wedding",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 30,
@@ -590,7 +591,7 @@ const products = [
   },
 {
     id: 32,
-    image: [wed3],
+    image: [tr11],
     title: "Traditional Wedding",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.. m86+",
     price: 10,
@@ -716,7 +717,7 @@ const products = [
 
   {
     id: 54,
-    image: [ank7,ank70,ank71,ank72],
+    image: [ank1],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
@@ -724,14 +725,14 @@ const products = [
 
 {
     id: 55,
-    image: [ank8,ank81,ank82,ank83,ank84],
+    image: [ank2],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 56,
-    image: [ank9,ank91,ank92],
+    image: [ank3],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
@@ -1002,7 +1003,7 @@ const products = [
 
   {
     id: 112,
-    image: [ank10,ank101],
+    image: [ank4],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
@@ -1010,14 +1011,14 @@ const products = [
 
 {
     id: 113,
-    image: [ank11,ank111,ank112],
+    image: [ank5],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 114,
-    image: [ank12,ank121,ank122],
+    image: [ank6],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
@@ -1401,7 +1402,7 @@ const products = [
     price: 10,
   },
 
-  
+
 {
   id: 168,
   image: [shwe1],
@@ -1547,9 +1548,9 @@ const products = [
   title: "Shweshwe Fashion",
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   price: 10,
-}, 
+},
 {
-    
+
   id: 189,
   image: [men9],
   title: "Male Fashion",
@@ -1743,7 +1744,7 @@ const products = [
 },
 {
   id: 214,
-  image: [wed19],
+  image: [wed9],
   title: "White Wedding",
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   price: 10,
@@ -1751,7 +1752,7 @@ const products = [
 
 {
   id: 215,
-  image: [wed20],
+  image: [wed10],
   title: "Matric Dance",
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   price: 10,
@@ -1759,7 +1760,7 @@ const products = [
 
 {
   id: 216,
-  image: [wed21],
+  image: [wed9],
   title: "Matric Dance",
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   price: 10,

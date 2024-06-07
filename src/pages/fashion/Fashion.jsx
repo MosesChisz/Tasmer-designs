@@ -9,6 +9,7 @@ function Fashion() {
   const navigate = useNavigate();
   const [products, setProducts] = useState(Images);
   const [activeButton, setActiveButton] = useState(null);
+  const [selectedProduct, setSelectedProduct] = useState(null);
   const menuItems = ["All", ...new Set(Images.map((val) => val.title))];
 
   const handleButtonClick = (buttonId) => {
@@ -20,6 +21,14 @@ function Fashion() {
       const filteredProducts = Images.filter((product) => product.title === selectedCategory);
       setProducts(filteredProducts);
     }
+  };
+
+  const handleOrderNow = (product) => {
+    setSelectedProduct(product);
+    // You can navigate to an order page or open a modal here
+    console.log("Ordering product:", product);
+    // For example, you can navigate to an order page
+    navigate(`/order/${product.id}`);
   };
 
   return (
@@ -52,7 +61,12 @@ function Fashion() {
                   <h6>{product.title}</h6>
                   <p>R{product.price.toFixed(2)}</p>
                   <div id="fashionCardBtn">
-                    <button id="fashionCardBtnA">Order Now</button>
+                    <button
+                      id="fashionCardBtnA"
+                      onClick={() => handleOrderNow(product)}
+                    >
+                      Order Now
+                    </button>
                     <button
                       id="fashionCardBtnB"
                       onClick={() => {
@@ -91,7 +105,7 @@ function Fashion() {
                 3
               </a>
             </li>
-            <li className="page-item">  
+            <li className="page-item">
               <a className="page-link" href="#" aria-label="Next">
                 <span aria-hidden="true">&raquo;</span>
               </a>
