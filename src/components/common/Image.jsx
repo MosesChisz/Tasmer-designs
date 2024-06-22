@@ -1,3 +1,4 @@
+import LazyLoad from 'react-lazyload';
 import xh2 from "../../assets/xh2.jpg"
 import xh3 from "../../assets/xh3.jpg"
 import xh4 from "../../assets/xh4.jpg"
@@ -26,8 +27,6 @@ import wedd1 from "../../assets/wedd1.jpg"
 
 
 import wedd4 from "../../assets/wedd4.jpg"
-
-
 //MALE
 import men1 from "../../assets/men1.png"
 import men2 from "../../assets/men2.png"
@@ -101,8 +100,17 @@ import tr4 from "../../assets/tr4.jpg"
 import tr5 from "../../assets/tr5.jpg"
 import tr6 from "../../assets/tr6.jpg"
 import tr7 from "../../assets/tr7.jpg"
+import tr8 from "../../assets/tr8.jpg"
 import tr9 from "../../assets/tr9.jpg"
 import tr11 from "../../assets/tr11.jpg"
+import tr12 from "../../assets/tr12.jpg"
+import tr13 from "../../assets/tr13.jpg"
+import tr14 from "../../assets/tr14.jpg"
+import tr15 from "../../assets/tr15.jpg"
+import tr16 from "../../assets/tr16.jpg"
+import tr17 from "../../assets/tr17.jpg"
+import tr18 from "../../assets/tr18.jpg"
+import tr19 from "../../assets/tr19.jpg"
 
 //MATRIC
 import matri1 from "../../assets/matr1.jpg"
@@ -116,6 +124,10 @@ import matri7 from "../../assets/matr7.jpg"
 import matri8 from "../../assets/matr8.jpg"
 import matri9 from "../../assets/matr9.jpg"
 import matri10 from "../../assets/matr10.jpg"
+import matri11 from "../../assets/matr11.jpg"
+import matri12 from "../../assets/matr12.jpg"
+import matri13 from "../../assets/matr13.jpg"
+import matri14 from "../../assets/matr14.jpg"
 
 //ANKARA
 import ank1 from "../../assets/ank1.jpg"
@@ -124,7 +136,16 @@ import ank3 from "../../assets/ank3.jpg"
 import ank4 from "../../assets/ank4.jpg"
 import ank5 from "../../assets/ank5.jpg"
 import ank6 from "../../assets/ank6.jpg"
-//import ank7 from "../../assets/ank7.jpg"
+import ank7 from "../../assets/ank7.jpg"
+import ank8 from "../../assets/ank8.jpg"
+import ank9 from "../../assets/ank9.jpg"
+import ank10 from "../../assets/ank10.jpg"
+import ank11 from "../../assets/ank11.jpg"
+import ank12 from "../../assets/ank12.jpg"
+import ank13 from "../../assets/ank13.jpg"
+import ank14 from "../../assets/ank14.jpg"
+import ank15 from "../../assets/ank15.jpg"
+import ank16 from "../../assets/ank16.jpg"
 
 //SEPEDI
 import sep1 from "../../assets/sep1.0.jpg"
@@ -151,13 +172,7 @@ import sep21 from "../../assets/sep4.1.jpg"
 import sep22 from "../../assets/sep4.2.jpg"
 import sep23 from "../../assets/sep4.jpg"
 import sep24 from "../../assets/sep5.0.jpg"
-import sep25 from "../../assets/sep5.1.jpg"
-import sep26 from "../../assets/sep5.2.jpg"
 import sep27 from "../../assets/sep5.3.jpg"
-import sep28 from "../../assets/sep5.4.jpg"
-import sep29 from "../../assets/sep5.5.jpg"
-import sep30 from "../../assets/sep5.6.jpg"
-import sep31 from "../../assets/sep5.jpg"
 import sep32 from "../../assets/sep6.jpg"
 import sep33 from "../../assets/sep7.0.png"
 import sep34 from "../../assets/sep7.1.jpg"
@@ -180,7 +195,6 @@ import sep50 from "../../assets/sep12.2.jpg"
 import sep51 from "../../assets/sep12.3.jpg"
 import sep52 from "../../assets/sep12.jpg"
 import sep53 from "../../assets/sep13.0.jpg"
-import sep54 from "../../assets/sep13.png"
 
 //CLASSY
 import clas1 from "../../assets/clas1.0.jpg"
@@ -288,6 +302,12 @@ import clas52 from "../../assets/clas17.jpg"
 
 //XHOSA
 import xhosa1 from "../../assets/xhosa1.jpg"
+import xhosa2 from "../../assets/xhosa2.jpg"
+import xhosa3 from "../../assets/xhosa3.jpg"
+import xhosa4 from "../../assets/xhosa4.jpg"
+import xhosa5 from "../../assets/xhosa5.jpg"
+import xhosa6 from "../../assets/xhosa6.jpg"
+import xhosa7 from "../../assets/xhosa7.jpg"
 
 //XITSONGA
 import xits1 from "../../assets/xits1.jpg"
@@ -369,12 +389,6 @@ import shwe63 from "../../assets/shwe18.jpg"
 import shwe64 from "../../assets/shwe18.0.jpg"
 import shwe65 from "../../assets/shwe19.jpg"
 import shwe67 from "../../assets/shwe19.0.jpg"
-// import shwe68 from "../../assets/shwe20.png"
-// import shwe69 from "../../assets/shwe20.0.jpg"
-// import shwe70 from "../../assets/shwe20.1.jpg"
-// import shwe71 from "../../assets/shwe20.2.jpg"
-// import shwe72 from "../../assets/shwe20.3.jpg"
-// import shwe73 from "../../assets/shwe20.4.jpg"
 
  //SWATI
 
@@ -478,49 +492,49 @@ const products = [
   },
 {
     id: 14,
-    image: [xh14],
+    image: [xhosa1],
     title: "Xhosa Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 15,
-    image: [xh14],
+    image: [xhosa2],
     title: "Xhosa Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 16,
-    image: [xh14],
+    image: [xhosa3],
     title: "Xhosa Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 17,
-    image: [xh14],
+    image: [xhosa4],
     title: "Xhosa Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 18,
-    image: [xh14],
+    image: [xhosa5],
     title: "Xhosa Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 19,
-    image: [xh14],
+    image: [xhosa6],
     title: "Xhosa Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 20,
-    image: [xh14],
+    image: [xhosa7],
     title: "Xhosa Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
@@ -1332,7 +1346,7 @@ const products = [
   },
 {
   id: 131,
-  image: [wed10],
+  image: [matri11],
   title: "Matric Dance",
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   price: 10,
@@ -1340,14 +1354,14 @@ const products = [
 
 {
   id: 132,
-  image: [wed9],
+  image: [matri12],
   title: "Matric Dance",
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   price: 10,
 },
 {
   id: 133,
-  image: [wed10],
+  image: [matri13],
   title: "Matric Dance",
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   price: 10,
@@ -1355,14 +1369,14 @@ const products = [
 
 {
   id: 134,
-  image: [wed9],
+  image: [matri14],
   title: "Matric Dance",
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   price: 10,
 },
 {
   id: 135,
-  image: [wed10],
+  image: [matri14],
   title: "Matric Dance",
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   price: 10,
@@ -1370,14 +1384,14 @@ const products = [
 
 {
   id: 136,
-  image: [wed9],
+  image: [matri14],
   title: "Matric Dance",
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   price: 10,
 },
 {
   id: 137,
-  image: [wed10],
+  image: [matri14],
   title: "Matric Dance",
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   price: 10,
@@ -1385,14 +1399,14 @@ const products = [
 
 {
   id: 138,
-  image: [wed9],
+  image: [matri14],
   title: "Matric Dance",
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   price: 10,
 },
 {
   id: 139,
-  image: [wed10],
+  image: [matri14],
   title: "Matric Dance",
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   price: 10,
@@ -1400,7 +1414,7 @@ const products = [
 
 {
   id: 140,
-  image: [wed9],
+  image: [matri14],
   title: "Matric Dance",
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   price: 10,
@@ -1467,7 +1481,7 @@ const products = [
   
   {
     id:149,
-    image: [tr9],
+    image: [tr8],
     title: "Traditional Wedding",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
@@ -1481,63 +1495,63 @@ const products = [
   },
  {
     id:151,
-    image: [tr9],
+    image: [tr11],
     title: "Traditional Wedding",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
  {
     id:152,
-    image: [tr9],
+    image: [tr12],
     title: "Traditional Wedding",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
  {
     id:153,
-    image: [tr9],
+    image: [tr13],
     title: "Traditional Wedding",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
  {
     id:154,
-    image: [tr9],
+    image: [tr14],
     title: "Traditional Wedding",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
  {
     id:155,
-    image: [tr9],
+    image: [tr15],
     title: "Traditional Wedding",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
  {
     id:156,
-    image: [tr9],
+    image: [tr16],
     title: "Traditional Wedding",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
  {
     id:157,
-    image: [tr9],
+    image: [tr17],
     title: "Traditional Wedding",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
  {
     id:158,
-    image: [tr9],
+    image: [tr18],
     title: "Traditional Wedding",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
  {
     id:159,
-    image: [tr9],
+    image: [tr19],
     title: "Traditional Wedding",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
@@ -1597,14 +1611,14 @@ const products = [
   },
 {
     id: 167,
-    image: [ank1],
+    image: [ank7],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
  {
     id: 168,
-    image: [ank4],
+    image: [ank8],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
@@ -1612,28 +1626,28 @@ const products = [
 
 {
     id: 169,
-    image: [ank5],
+    image: [ank9],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 170,
-    image: [ank6],
+    image: [ank10],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 171,
-    image: [ank1],
+    image: [ank11],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
  {
     id: 172,
-    image: [ank4],
+    image: [ank12],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
@@ -1641,28 +1655,28 @@ const products = [
 
 {
     id: 173,
-    image: [ank5],
+    image: [ank13],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 174,
-    image: [ank6],
+    image: [ank14],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
 {
     id: 175,
-    image: [ank1],
+    image: [ank15],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },
  {
     id: 176,
-    image: [ank4],
+    image: [ank16],
     title: "Ankara Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
@@ -1707,7 +1721,7 @@ const products = [
   },
 {
     id: 182,
-    image: [sep1,sep2,sep3],
+    image: [sep7,sep2,sep3],
     title: "Sepedi Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
@@ -1735,7 +1749,7 @@ const products = [
   },
 {
     id: 186,
-    image: [sep26,sep24,sep25,sep27,sep28,sep29,sep30,sep31],
+    image: [sep24,sep27,],
     title: "Sepedi Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
@@ -1792,7 +1806,7 @@ const products = [
   },
 {
     id: 194,
-    image: [sep53,sep54],
+    image: [sep53],
     title: "Sepedi Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
@@ -2121,148 +2135,6 @@ const products = [
     id: 240,
     image: [tr9],
     title: "Ndebele Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-
-//XHOSA
-{
-    id: 241,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 242,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 243,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 244,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 245,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 246,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 247,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 248,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 249,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 250,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 251,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 252,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 253,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 254,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 255,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 256,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 257,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 258,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 259,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 10,
-  },
-{
-    id: 260,
-    image: [xhosa1],
-    title: "Xhosa Traditional",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 10,
   },

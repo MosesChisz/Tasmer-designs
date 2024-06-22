@@ -2,8 +2,10 @@ import React from "react";
 import homeaboutbanner from "../../assets/aboutbanner02.png";
 import "./About.css";
 import Footer from "../../components/footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 function About() {
+  const navigate = useNavigate();
   return (
     <>
       <div id="theAboutPage">
@@ -62,7 +64,9 @@ function About() {
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
                 </p>
-                <button>Read More</button>
+                <button onClick={() => {
+                navigate("/fashion");
+              }}>View More</button>
               </div>
             </div>
             <div class="col-lg-4 col-md-4">
@@ -73,7 +77,9 @@ function About() {
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
                 </p>
-                <button>Read More</button>
+                <button onClick={() => {
+                navigate("/fashion");
+              }}>View More</button>
               </div>
             </div>
             <div class="col-lg-4 col-md-4">
@@ -84,7 +90,9 @@ function About() {
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
                 </p>
-                <button>Read More</button>
+                <button onClick={() => {
+                navigate("/fashion");
+              }}>View More</button>
               </div>
             </div>
             <div class="col-lg-4 col-md-4">
@@ -95,18 +103,22 @@ function About() {
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
                 </p>
-                <button>Read More</button>
+                <button onClick={() => {
+                navigate("/fashion");
+              }}>View More</button>
               </div>
             </div>
             <div class="col-lg-4 col-md-4">
               <div id="ourServiceCard">
-                <h6>Male Dressing</h6>
+                <h6>Xhosa Traditional</h6>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
                 </p>
-                <button>Read More</button>
+                <button onClick={() => {
+                navigate("/fashion");
+              }}>View More</button>
               </div>
             </div>
             <div class="col-lg-4 col-md-4">
@@ -117,7 +129,9 @@ function About() {
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
                 </p>
-                <button>Read More</button>
+                <button onClick={() => {
+                navigate("/fashion");
+              }}>View More</button>
               </div>
             </div>
           </div>
